@@ -1,0 +1,425 @@
+{
+  "en": [
+    {
+      "slug": "phishing",
+      "title": "Email & Link Phishing",
+      "summary": "Scammers send fake emails or messages from seemingly trusted organizations to steal personal and financial information.",
+      "image": "/images/scams/phishing-hero.svg",
+      "severity": "high",
+      "images": [
+        { "src": "/images/scams/phishing-hero.svg", "alt": "Phishing Hero", "caption": "A scammer sending a fake email to steal data." },
+        { "src": "/images/scams/phishing-example.svg", "alt": "Phishing Example", "caption": "An example of a phishing email claiming your account is blocked." },
+        { "src": "/images/scams/phishing-redflags.svg", "alt": "Phishing Red Flags", "caption": "Red flags indicating a phishing attempt." }
+      ],
+      "whatIsIt": "Phishing is a cyber attack where scammers pretend to be a trusted entity (like a bank or government agency) to trick you into revealing sensitive information such as passwords, OTPs, or credit card details.",
+      "howItWorks": [
+        "You receive an urgent message saying your account is blocked, or KYC needs updating.",
+        "The message contains a link that looks legitimate but is slightly misspelled.",
+        "Clicking the link takes you to a fake website that looks exactly like the real one.",
+        "You are asked to enter your login credentials, bank details, or an OTP.",
+        "The scammer captures this information and uses it to steal your money."
+      ],
+      "redFlags": [
+        "Creates a false sense of urgency (e.g., 'Your account will be suspended in 24 hours').",
+        "The sender's email address looks slightly off (e.g., support@sBl-bank.com instead of sbi.co.in).",
+        "The message contains spelling or grammatical mistakes.",
+        "Asks for sensitive information like passwords, PINs, or OTPs.",
+        "Offers a reward or prize that seems too good to be true.",
+        "Uses generic greetings like 'Dear Customer' instead of your name."
+      ],
+      "howToStaySafe": [
+        "Never click on suspicious links sent via email, SMS, or WhatsApp.",
+        "Always verify the sender's email address carefully.",
+        "Do not download attachments from unknown or unexpected senders.",
+        "If unsure, visit the official website by typing the URL directly into your browser.",
+        "Enable multi-factor authentication (MFA) on your critical accounts."
+      ],
+      "ifScammed": [
+        "Call 1930 as soon as possible to report the fraud.",
+        "Inform your bank immediately to block any unauthorized transactions and your cards.",
+        "Change the passwords for any compromised accounts immediately.",
+        "Report the incident on the National Cyber Crime Reporting Portal at https://cybercrime.gov.in.",
+        "Never share OTP/PIN with anyone claiming they can help you recover the money."
+      ],
+      "example": {
+        "channel": "email",
+        "sender": "support@bank-verify-secure.example",
+        "text": "Dear Customer, your bank account will be blocked today due to pending KYC. Update immediately by clicking: hxxp://bank-kyc-update[.]example/login"
+      }
+    },
+    {
+      "slug": "upi-fraud",
+      "title": "UPI Collect Request Fraud",
+      "summary": "Scammers trick victims into sending money using the UPI 'collect request' feature while pretending to send money.",
+      "image": "/images/scams/upi-fraud-hero.svg",
+      "severity": "high",
+      "images": [
+        { "src": "/images/scams/upi-fraud-hero.svg", "alt": "UPI Fraud Hero", "caption": "A scammer sending a deceptive UPI payment request." },
+        { "src": "/images/scams/upi-fraud-example.svg", "alt": "UPI Fraud Example", "caption": "An example of a malicious UPI collect notification." },
+        { "src": "/images/scams/upi-fraud-redflags.svg", "alt": "UPI Fraud Red Flags", "caption": "Warning signs of a UPI collect request fraud." }
+      ],
+      "whatIsIt": "UPI Collect Request Fraud is a common scam where a fraudster poses as a buyer, official, or friend, and sends a 'payment request' on your UPI app instead of sending money to you. They try to trick you into entering your UPI PIN.",
+      "howItWorks": [
+        "You list an item for sale online, or the scammer contacts you offering a refund or payment.",
+        "The scammer agrees to pay and asks you to open your UPI app (like GPay, PhonePe, Paytm).",
+        "Instead of sending money, they send a 'Collect Request' to your UPI ID.",
+        "They persuade you to click 'Pay' and enter your UPI PIN, claiming it is required to 'receive' the money.",
+        "Once you enter your PIN, money is deducted from your account and sent to the scammer."
+      ],
+      "redFlags": [
+        "The person insists on paying via UPI immediately without checking the product.",
+        "They send a QR code and ask you to scan it to 'receive' payment.",
+        "You see a 'Pay', 'Approve', or 'Enter PIN' button on your screeen when you expect to receive money.",
+        "The scammer creates urgency or continuously calls you while you are on the app.",
+        "They refuse to use standard payment gateways or cash."
+      ],
+      "howToStaySafe": [
+        "Remember one golden rule: UPI PIN is ONLY needed to SEND money, never to RECEIVE money.",
+        "Never scan QR codes sent by unknown people over messaging apps.",
+        "Carefully read the SMS or notification before clicking anything.",
+        "If someone pressures you to accept a request on your UPI app, cancel the transaction immediately.",
+        "Decline unknown payment requests in the pending section of your UPI app."
+      ],
+      "ifScammed": [
+        "Call 1930 as soon as possible to report the fraud.",
+        "Inform your bank immediately to block your account and raise a dispute.",
+        "Contact the customer support of the UPI app used (GPay, PhonePe, etc.) to report the transaction.",
+        "File a complaint at https://cybercrime.gov.in.",
+        "Never share OTP/PIN with anyone claiming to be a refund agent."
+      ],
+      "example": {
+        "channel": "whatsapp",
+        "sender": "+91-9876543210",
+        "text": "Hello, I am buying your furniture. I have sent Rs 5000 via PhonePe. Just open the app, click 'Pay' and enter PIN to receive money in your bank."
+      }
+    },
+    {
+      "slug": "fake-job-lottery",
+      "title": "Fake Job & Lottery Scam",
+      "summary": "Victims are lured with the promise of a high-paying job or a large lottery win, but asked to pay a fee first.",
+      "image": "/images/scams/fake-job-lottery-hero.svg",
+      "severity": "medium",
+      "images": [
+        { "src": "/images/scams/fake-job-lottery-hero.svg", "alt": "Fake Job & Lottery Hero", "caption": "A scammer promising false riches and jobs." },
+        { "src": "/images/scams/fake-job-lottery-example.svg", "alt": "Fake Job & Lottery Example", "caption": "A message declaring a fake lottery win." },
+        { "src": "/images/scams/fake-job-lottery-redflags.svg", "alt": "Fake Job & Lottery Red Flags", "caption": "Warning signs of job and lottery scams." }
+      ],
+      "whatIsIt": "In these scams, fraudsters promise you a high-paying overseas job, an easy task-based gig, or claim you have won a massive lottery or prize. However, to get the money or job, they ask you to pay various 'fees' upfront.",
+      "howItWorks": [
+        "You receive an unsolicited message claiming you've won a lottery or offering a high-paying part-time job.",
+        "For jobs, they may give you simple tasks initially (like liking videos) and pay you small amounts to build trust.",
+        "Eventually, you're told you must pay 'registration', 'taxes', or 'customs clearance' fees before getting the big reward.",
+        "You make the initial payment, and they request even more money under different excuses.",
+        "Once you refuse to pay more or realize it's a scam, they cut all communication."
+      ],
+      "redFlags": [
+        "You are asked to pay money to get money or a job.",
+        "You are 'selected' for a lottery you never even entered.",
+        "The job offer promises extreme high returns for minimal effort (e.g., 'Earn 10,000 daily working 1 hour').",
+        "Communication is poor, unprofessional, or comes from a common Gmail/Yahoo account instead of a corporate one.",
+        "They demand payment via cryptocurrency, gift cards, or direct bank transfer to unknown individuals."
+      ],
+      "howToStaySafe": [
+        "Never pay any 'registration fee', 'security deposit', or 'processing fee' for a job or lottery win.",
+        "Do not trust unsolicited job offers on WhatsApp or Telegram from unknown numbers.",
+        "Verify the company directly through their official career website.",
+        "Remember that legitimate employers will never ask you to pay them for a job.",
+        "Ignore messages claiming you won a contest you do not remember entering."
+      ],
+      "ifScammed": [
+        "Call 1930 as soon as possible to report the financial loss.",
+        "Inform your bank immediately to block transfers if you just made a payment.",
+        "Stop all communication with the scammers. Do not pay them any 'recovery' fee.",
+        "Report the scammers on the National Cyber Crime portal.",
+        "Never share OTP/PIN with anyone claiming they will refund your lost money."
+      ],
+      "example": {
+        "channel": "sms",
+        "sender": "TF-REWARD",
+        "text": "Congratulations! Your mobile number has won Rs 25,00,000 in the All India Mega Draw. Pay 5000 processing fee to hxxp://fake-lottery-claim[.]example"
+      }
+    }
+  ],
+  "hi": [
+    {
+      "slug": "phishing",
+      "title": "ईमेल और लिंक फ़िशिंग",
+      "summary": "स्कैमर्स आपकी व्यक्तिगत और वित्तीय जानकारी चुराने के लिए विश्वसनीय संगठनों के नाम से नकली ईमेल या संदेश भेजते हैं।",
+      "image": "/images/scams/phishing-hero.svg",
+      "severity": "high",
+      "images": [
+        { "src": "/images/scams/phishing-hero.svg", "alt": "फ़िशिंग हीरो", "caption": "एक स्कैमर जो डेटा चुराने के लिए नकली ईमेल भेज रहा है।" },
+        { "src": "/images/scams/phishing-example.svg", "alt": "फ़िशिंग उदाहरण", "caption": "एक फ़िशिंग ईमेल का उदाहरण जिसमें दावा किया गया है कि आपका खाता ब्लॉक हो गया है।" },
+        { "src": "/images/scams/phishing-redflags.svg", "alt": "फ़िशिंग रेड फ्लैग्स", "caption": "फ़िशिंग प्रयास का संकेत देने वाले खतरे के संकेत।" }
+      ],
+      "whatIsIt": "फ़िशिंग एक साइबर हमला है जहाँ स्कैमर्स पासवर्ड, ओटीपी, या क्रेडिट कार्ड के विवरण जैसी संवेदनशील जानकारी प्रकट करने के लिए आपको धोखा देने के लिए किसी बैंक या सरकारी एजेंसी जैसा दिखने का नाटक करते हैं।",
+      "howItWorks": [
+        "आपको एक जरूरी संदेश मिलता है जिसमें कहा जाता है कि आपका खाता ब्लॉक हो गया है, या केवाईसी को अपडेट करने की आवश्यकता है।",
+        "संदेश में एक लिंक होता है जो वास्तविक लगता है लेकिन उसकी स्पेलिंग थोड़ी गलत होती है।",
+        "लिंक पर क्लिक करने पर आप एक नकली वेबसाइट पर चले जाते हैं जो बिल्कुल असली वेबसाइट जैसी दिखती है।",
+        "आपसे अपना लॉगिन क्रेडेंशियल, बैंक विवरण या ओटीपी दर्ज करने के लिए कहा जाता है।",
+        "स्कैमर इस जानकारी को चुरा लेता है और इसका उपयोग आपके पैसे चुराने के लिए करता है।"
+      ],
+      "redFlags": [
+        "घबराहट पैदा करना (जैसे, 'आपका खाता 24 घंटे में निलंबित कर दिया जाएगा')।",
+        "भेजने वाले का ईमेल पता थोड़ा गलत लगता है।",
+        "संदेश में स्पेलिंग या व्याकरण की गलतियाँ होती हैं।",
+        "पासवर्ड, पिन या ओटीपी जैसी संवेदनशील जानकारी मांगता है।",
+        "एक इनाम की पेशकश करता है जो सच होने के लिए बहुत अच्छा लगता है।",
+        "आपके नाम के बजाय 'प्रिय ग्राहक' जैसे सामान्य अभिवादन का उपयोग करता है।"
+      ],
+      "howToStaySafe": [
+        "ईमेल, एसएमएस या व्हाट्सएप के जरिए भेजे गए संदिग्ध लिंक पर कभी भी क्लिक न करें।",
+        "भेजने वाले के ईमेल पते को हमेशा ध्यान से जांचें।",
+        "अज्ञात या अप्रत्याशित प्रेषकों से अटैचमेंट डाउनलोड न करें।",
+        "संदेह होने पर, अपने ब्राउज़र में सीधे URL टाइप करके आधिकारिक वेबसाइट पर जाएँ।",
+        "अपने महत्वपूर्ण खातों पर बहु-कारक प्रमाणीकरण (MFA) सक्षम करें।"
+      ],
+      "ifScammed": [
+        "धोखाधड़ी की रिपोर्ट करने के लिए जितनी जल्दी हो सके 1930 पर कॉल करें।",
+        "किसी भी अनधिकृत लेनदेन और अपने कार्ड को ब्लॉक करने के लिए तुरंत अपने बैंक को सूचित करें।",
+        "किसी भी प्रभावित खाते का पासवर्ड तुरंत बदलें।",
+        "राष्ट्रीय साइबर अपराध रिपोर्टिंग पोर्टल https://cybercrime.gov.in पर घटना की रिपोर्ट करें।",
+        "पैसे वसूलने में मदद करने का दावा करने वाले किसी भी व्यक्ति के साथ कभी भी OTP/PIN शेयर न करें।"
+      ],
+      "example": {
+        "channel": "email",
+        "sender": "support@bank-verify-secure.example",
+        "text": "प्रिय ग्राहक, KYC अपडेट नहीं होने के कारण आपका बैंक खाता आज ब्लॉक कर दिया जाएगा। इस लिंक पर क्लिक करके तुरंत अपडेट करें: hxxp://bank-kyc-update[.]example/login"
+      }
+    },
+    {
+      "slug": "upi-fraud",
+      "title": "UPI रिक्वेस्ट फ्रॉड",
+      "summary": "स्कैमर्स आपको पैसे भेजने का नाटक करते हुए UPI 'कलेक्ट रिक्वेस्ट' सुविधा का उपयोग करके पैसे भेजने के लिए धोखा देते हैं।",
+      "image": "/images/scams/upi-fraud-hero.svg",
+      "severity": "high",
+      "images": [
+        { "src": "/images/scams/upi-fraud-hero.svg", "alt": "UPI फ्रॉड हीरो", "caption": "एक स्कैमर जो भ्रामक UPI पेमेंट रिक्वेस्ट भेज रहा है।" },
+        { "src": "/images/scams/upi-fraud-example.svg", "alt": "UPI फ्रॉड उदाहरण", "caption": "एक दुर्भावनापूर्ण UPI कलेक्ट नोटिफिकेशन का उदाहरण।" },
+        { "src": "/images/scams/upi-fraud-redflags.svg", "alt": "UPI फ्रॉड चेतावनी", "caption": "UPI कलेक्ट रिक्वेस्ट फ्रॉड के चेतावनी संकेत।" }
+      ],
+      "whatIsIt": "UPI कलेक्ट रिक्वेस्ट फ्रॉड एक आम घोटाला है जहाँ एक जालसाज़ खरीदार, अधिकारी या दोस्त होने का दिखावा करता है, और आपको पैसे भेजने के बजाय आपके UPI ऐप पर 'पेमेंट रिक्वेस्ट' भेजता है। वे आपको अपना UPI पिन दर्ज करने के लिए धोखा देने की कोशिश करते हैं।",
+      "howItWorks": [
+        "आप ऑनलाइन कोई सामान बिक्री के लिए डालते हैं, या स्कैमर आपको रिफंड या पेमेंट देने की पेशकश करता है।",
+        "स्कैमर भुगतान करने के लिए सहमत होता है और आपसे अपना UPI ऐप (जैसे GPay, PhonePe, Paytm) खोलने के लिए कहता है।",
+        "पैसे भेजने के बजाय, वे आपके UPI ID पर एक 'कलेक्ट रिक्वेस्ट' भेजते हैं।",
+        "वे आपको 'Pay' पर क्लिक करने और अपना UPI पिन दर्ज करने के लिए राजी करते हैं, यह दावा करते हुए कि पैसे 'प्राप्त' करने के लिए इसकी आवश्यकता है।",
+        "जैसे ही आप अपना पिन दर्ज करते हैं, आपके खाते से पैसे कट जाते हैं और स्कैमर के पास चले जाते हैं।"
+      ],
+      "redFlags": [
+        "व्यक्ति उत्पाद की जांच किए बिना तुरंत UPI के माध्यम से भुगतान करने पर जोर देता है।",
+        "वे एक क्यूआर कोड भेजते हैं और भुगतान 'प्राप्त' करने के लिए आपको इसे स्कैन करने के लिए कहते हैं।",
+        "जब आप पैसे प्राप्त करने की उम्मीद करते हैं तो आपको अपनी स्क्रीन पर 'Pay', 'Approve', या 'Enter PIN' बटन दिखाई देता है।",
+        "स्कैमर घबराहट पैदा करता है या जब आप ऐप पर होते हैं तो आपको लगातार कॉल करता है।",
+        "वे मानक पेमेंट गेटवे या नकदी का उपयोग करने से इनकार करते हैं।"
+      ],
+      "howToStaySafe": [
+        "एक सुनहरा नियम याद रखें: UPI पिन की केवल पैसे भेजने के लिए आवश्यकता होती है, पैसे प्राप्त करने के लिए कभी नहीं।",
+        "मैसेजिंग ऐप पर अज्ञात लोगों द्वारा भेजे गए क्यूआर कोड को कभी स्कैन न करें।",
+        "कुछ भी क्लिक करने से पहले एसएमएस या नोटिफिकेशन को ध्यान से पढ़ें।",
+        "यदि कोई आपके UPI ऐप पर रिक्वेस्ट स्वीकार करने का दबाव डालता है, तो लेनदेन को तुरंत रद्द कर दें।",
+        "अपने UPI ऐप के पेंडिंग सेक्शन में अज्ञात भुगतान अनुरोधों को अस्वीकार करें।"
+      ],
+      "ifScammed": [
+        "धोखाधड़ी की रिपोर्ट करने के लिए जितनी जल्दी हो सके 1930 पर कॉल करें।",
+        "अपने खाते को ब्लॉक करने और विवाद दर्ज करने के लिए तुरंत अपने बैंक को सूचित करें।",
+        "लेनदेन की रिपोर्ट करने के लिए उपयोग किए गए UPI ऐप (GPay, PhonePe, आदि) के ग्राहक सहायता से संपर्क करें।",
+        "https://cybercrime.gov.in पर शिकायत दर्ज करें।",
+        "रिफंड एजेंट होने का दावा करने वाले किसी भी व्यक्ति के साथ कभी भी OTP/PIN शेयर न करें।"
+      ],
+      "example": {
+        "channel": "whatsapp",
+        "sender": "+91-9876543210",
+        "text": "नमस्ते, मैं आपका फर्नीचर खरीद रहा हूं। मैंने PhonePe के जरिए 5000 रुपये भेज दिए हैं। अपने बैंक में पैसे प्राप्त करने के लिए बस ऐप खोलें, 'Pay' पर क्लिक करें और पिन दर्ज करें।"
+      }
+    },
+    {
+      "slug": "fake-job-lottery",
+      "title": "फर्जी जॉब और लॉटरी स्कैम",
+      "summary": "पीड़ितों को अधिक वेतन वाली नौकरी या बड़ी लॉटरी जीतने के वादे का लालच दिया जाता है, लेकिन पहले शुल्क का भुगतान करने के लिए कहा जाता है।",
+      "image": "/images/scams/fake-job-lottery-hero.svg",
+      "severity": "medium",
+      "images": [
+        { "src": "/images/scams/fake-job-lottery-hero.svg", "alt": "फर्जी जॉब और लॉटरी हीरो", "caption": "एक स्कैमर जो झूठी दौलत और नौकरी का वादा कर रहा है।" },
+        { "src": "/images/scams/fake-job-lottery-example.svg", "alt": "फर्जी जॉब और लॉटरी उदाहरण", "caption": "एक संदेश जो नकली लॉटरी जीतने की घोषणा कर रहा है।" },
+        { "src": "/images/scams/fake-job-lottery-redflags.svg", "alt": "फर्जी जॉब और लॉटरी रेड फ्लैग्स", "caption": "नौकरी और लॉटरी घोटालों के चेतावनी संकेत।" }
+      ],
+      "whatIsIt": "इन घोटालों में, धोखेबाज़ आपको विदेश में अधिक वेतन वाली नौकरी, आसान काम आधारित गिग का वादा करते हैं, या दावा करते हैं कि आपने बड़ी लॉटरी या इनाम जीता है। हालाँकि, पैसे या नौकरी पाने के लिए, वे आपसे पहले ही विभिन्न 'शुल्क' का भुगतान करने के लिए कहते हैं।",
+      "howItWorks": [
+        "आपको एक अनचाहा संदेश प्राप्त होता है जिसमें दावा किया जाता है कि आपने कोई लॉटरी जीती है या उच्च-भुगतान वाली अंशकालिक नौकरी की पेशकश की जाती है।",
+        "नौकरियों के लिए, वे आपको शुरू में सरल कार्य (जैसे वीडियो लाइक करना) दे सकते हैं और विश्वास बनाने के लिए आपको छोटी रकम का भुगतान कर सकते हैं।",
+        "अंततः, आपको बताया जाता है कि बड़ा इनाम पाने से पहले आपको 'रजिस्ट्रेशन', 'टैक्स', या 'कस्टम क्लीयरेंस' शुल्क का भुगतान करना होगा।",
+        "आप प्रारंभिक भुगतान करते हैं, और वे विभिन्न बहानों के तहत और अधिक पैसे मांगते हैं।",
+        "एक बार जब आप अधिक भुगतान करने से इनकार करते हैं या आपको पता चलता है कि यह एक घोटाला है, तो वे सभी संपर्क काट देते हैं।"
+      ],
+      "redFlags": [
+        "आपसे पैसे या नौकरी के लिए पैसे देने को कहा जाता है।",
+        "आपको उस लॉटरी के लिए 'चुना' गया है जिसमें आपने कभी भाग नहीं लिया।",
+        "नौकरी का प्रस्ताव कम प्रयास के लिए बहुत अधिक रिटर्न का वादा करता है।",
+        "संचार खराब है, गैर-पेशेवर है, या कॉर्पोरेट खाते के बजाय एक सामान्य Gmail/Yahoo खाते से आता है।",
+        "वे अज्ञात व्यक्तियों को भुगतान की मांग करते हैं।"
+      ],
+      "howToStaySafe": [
+        "नौकरी या लॉटरी जीतने के लिए कभी भी कोई 'रजिस्ट्रेशन शुल्क', 'सुरक्षा जमा', या 'प्रोसेसिंग शुल्क' का भुगतान न करें।",
+        "अज्ञात नंबरों से व्हाट्सएप या टेलीग्राम पर अनचाही नौकरी की पेशकश पर भरोसा न करें।",
+        "कंपनी की सीधे उनके आधिकारिक करियर वेबसाइट के माध्यम से पुष्टि करें।",
+        "याद रखें कि वैध नियोक्ता कभी भी आपसे नौकरी के लिए भुगतान करने के लिए नहीं कहेंगे।",
+        "उन संदेशों को अनदेखा करें जिनमें दावा किया गया है कि आपने कोई प्रतियोगिता जीती है।"
+      ],
+      "ifScammed": [
+        "वित्तीय नुकसान की रिपोर्ट करने के लिए जितनी जल्दी हो सके 1930 पर कॉल करें।",
+        "यदि आपने अभी-अभी भुगतान किया है तो ट्रांसफर को ब्लॉक करने के लिए तुरंत अपने बैंक को सूचित करें।",
+        "स्कैमर्स के साथ सभी संपर्क बंद करें। उन्हें कोई 'रिकवरी' शुल्क न दें।",
+        "राष्ट्रीय साइबर अपराध पोर्टल पर स्कैमर्स की रिपोर्ट करें।",
+        "आपका खोया हुआ पैसा वापस करने का दावा करने वाले किसी भी व्यक्ति के साथ कभी भी OTP/PIN शेयर न करें।"
+      ],
+      "example": {
+        "channel": "sms",
+        "sender": "TF-REWARD",
+        "text": "बधाई हो! आपके मोबाइल नंबर ने अखिल भारतीय मेगा ड्रा में 25,00,000 रुपये जीते हैं। 5000 प्रोसेसिंग फीस hxxp://fake-lottery-claim[.]example पर दें।"
+      }
+    }
+  ],
+  "mr": [
+    {
+      "slug": "phishing",
+      "title": "ईमेल आणि लिंक फसवणूक",
+      "summary": "स्कॅमर्स तुमची वैयक्तिक आणि आर्थिक माहिती चोरण्यासाठी विश्वसनीय संस्थांच्या नावाने बनावट ईमेल किंवा संदेश पाठवतात.",
+      "image": "/images/scams/phishing-hero.svg",
+      "severity": "high",
+      "images": [
+        { "src": "/images/scams/phishing-hero.svg", "alt": "फिशिंग हिरो", "caption": "डेटा चोरण्यासाठी बनावट ईमेल पाठवणारा स्कॅमर." },
+        { "src": "/images/scams/phishing-example.svg", "alt": "फिशिंग उदाहरण", "caption": "तुमचे खाते ब्लॉक झाल्याचा दावा करणारा फिशिंग ईमेल." },
+        { "src": "/images/scams/phishing-redflags.svg", "alt": "फिशिंग रॅड फ्लॅग्स", "caption": "फिशिंग प्रयत्नाचे धोक्याचे संकेत." }
+      ],
+      "whatIsIt": "फिशिंग हा एक सायबर हल्ला आहे जिथे स्कॅमर्स पासवर्ड, ओटीपी किंवा क्रेडिट कार्डचा तपशील यांसारखी संवेदनशील माहिती उघड करण्यासाठी बँकेचे किंवा सरकारी संस्थेचे नाटक करतात.",
+      "howItWorks": [
+        "तुम्हाला एक तातडीचा संदेश मिळतो की तुमचे खाते ब्लॉक झाले आहे, किंवा केवायसी अपडेट करणे आवश्यक आहे.",
+        "संदेशामध्ये एक लिंक असते जी अस्सल दिसते पण तिचे स्पेलिंग थोडे चुकीचे असते.",
+        "लिंकवर क्लिक केल्यावर तुम्ही हुबेहूब खऱ्या वेबसाइटसारख्या दिसणाऱ्या एका बनावट वेबसाइटवर जाता.",
+        "तुम्हाला तुमचे लॉगिन तपशील, बँक तपशील किंवा ओटीपी प्रविष्ट करण्यास सांगितले जाते.",
+        "स्कॅमर ही माहिती चोरतो आणि तुमच्या पैशांची चोरी करण्यासाठी तिचा वापर करतो."
+      ],
+      "redFlags": [
+        "घबराट निर्माण करणे (उदा., 'तुमचे खाते 24 तासांत निलंबित केले जाईल').",
+        "पाठवणाऱ्याचा ईमेल पत्ता थोडा चुकीचा दिसतो.",
+        "संदेशामध्ये स्पेलिंग किंवा व्याकरणाच्या चुका असतात.",
+        "पासवर्ड, पिन किंवा ओटीपीसारखी संवेदनशील माहिती विचारतात.",
+        "खरे वाटण्यापलीकडे चांगले असलेले बक्षीस देतात.",
+        "तुमच्या नावाऐवजी 'प्रिय ग्राहक' असे सामान्य अभिवादन वापरतात."
+      ],
+      "howToStaySafe": [
+        "ईमेल, एसएमएस किंवा व्हॉट्सॲपवरून पाठवलेल्या संशयास्पद लिंकवर कधीही क्लिक करू नका.",
+        "पाठवणाऱ्याचा ईमेल पत्ता नेहमी काळजीपूर्वक तपासा.",
+        "अज्ञात किंवा अनपेक्षित प्रेषकांकडून अटॅचमेंट डाउनलोड करू नका.",
+        "खात्री नसल्यास, तुमच्या ब्राउझरमध्ये थेट URL टाईप करून अधिकृत वेबसाइटला भेट द्या.",
+        "तुमच्या महत्त्वाच्या खात्यांवर मल्टी-फॅक्टर ऑथेंटिकेशन (MFA) सक्षम करा."
+      ],
+      "ifScammed": [
+        "फसवणुकीची तक्रार करण्यासाठी शक्य तितक्या लवकर 1930 वर कॉल करा.",
+        "अनधिकृत व्यवहार आणि तुमचे कार्ड ब्लॉक करण्यासाठी त्वरित तुमच्या बँकेला सूचित करा.",
+        "कोणत्याही प्रभावित खात्याचा पासवर्ड त्वरित बदला.",
+        "राष्ट्रीय सायबर गुन्हे अहवाल पोर्टलवर https://cybercrime.gov.in घटनेची तक्रार करा.",
+        "पैसे परत मिळवण्यास मदत करण्याचा दावा करणाऱ्या कोणाहीसोबत कधीही OTP/PIN शेअर करू नका."
+      ],
+      "example": {
+        "channel": "email",
+        "sender": "support@bank-verify-secure.example",
+        "text": "प्रिय ग्राहक, KYC अपडेट न केल्यामुळे तुमचे बँक खाते आज ब्लॉक केले जाईल. या लिंकवर क्लिक करून त्वरित अपडेट करा: hxxp://bank-kyc-update[.]example/login"
+      }
+    },
+    {
+      "slug": "upi-fraud",
+      "title": "UPI रिक्वेस्ट फ्रॉड",
+      "summary": "स्कॅमर्स तुम्हाला पैसे पाठवण्याचे नाटक करून, UPI 'कलेक्ट रिक्वेस्ट' वापरून पैसे पाठवण्याची फसवणूक करतात.",
+      "image": "/images/scams/upi-fraud-hero.svg",
+      "severity": "high",
+      "images": [
+        { "src": "/images/scams/upi-fraud-hero.svg", "alt": "UPI फ्रॉड हिरो", "caption": "दिशाभूल करणारी UPI पेमेंट रिक्वेस्ट पाठवणारा स्कॅमर." },
+        { "src": "/images/scams/upi-fraud-example.svg", "alt": "UPI फ्रॉड उदाहरण", "caption": "धोकादायक UPI कलेक्ट सूचनेचे उदाहरण." },
+        { "src": "/images/scams/upi-fraud-redflags.svg", "alt": "UPI फ्रॉड रॅड फ्लॅग्स", "caption": "UPI कलेक्ट रिक्वेस्ट फ्रॉडचे धोक्याचे संकेत." }
+      ],
+      "whatIsIt": "UPI कलेक्ट रिक्वेस्ट फ्रॉड हा एक सामान्य घोटाळा आहे जिथे एक फसवणूक करणारा खरेदीदार, अधिकारी किंवा मित्र असल्याचे नाटक करतो आणि तुम्हाला पैसे पाठवण्याऐवजी तुमच्या UPI ॲपवर 'पेमेंट रिक्वेस्ट' पाठवतो. ते तुमचा UPI पिन एण्टर करण्यासाठी तुम्हाला फसवण्याचा प्रयत्न करतात.",
+      "howItWorks": [
+        "तुम्ही অনলাইনে एखादी वस्तू विक्रीसाठी टाकता, किंवा स्कॅमर तुम्हाला रिफंड किंवा पेमेंट देण्याची ऑफर देतो.",
+        "स्कॅमर पैसे देण्यास सहमत होतो आणि तुम्हाला तुमचे UPI ॲप (उदा. GPay, PhonePe, Paytm) उघडण्यास सांगतो.",
+        "पैसे पाठवण्याऐवजी, ते तुमच्या UPI आयडीवर 'कलेक्ट रिक्वेस्ट' पाठवतात.",
+        "ते तुम्हाला 'Pay' वर क्लिक करण्यास आणि तुमचा UPI पिन प्रविष्ट करण्यास प्रवृत्त करतात, पैसे 'मिळवण्यासाठी' हे आवश्यक असल्याचा दावा करतात.",
+        "जसे तुम्ही तुमचा पिन प्रविष्ट करता, तुमच्या खात्यातून पैसे कापले जातात आणि स्कॅमरकडे जातात."
+      ],
+      "redFlags": [
+        "ती व्यक्ती उत्पादनाची तपासणी न करता त्वरित UPI द्वारे पैसे देण्याचा आग्रह धरते.",
+        "ते एक क्यूआर कोड पाठवतात आणि पेमेंट 'मिळवण्यासाठी' तुम्हाला तो स्कॅन करण्यास सांगतात.",
+        "जेव्हा तुम्ही पैसे मिळण्याची अपेक्षा करता तेव्हा तुम्हाला स्क्रीनवर 'Pay', 'Approve' किंवा 'Enter PIN' बटण दिसते.",
+        "तुम्ही ॲपवर असताना स्कॅमर घबराट निर्माण करतो किंवा तुम्हाला सतत कॉल करतो.",
+        "ते प्रमाणीकृत पेमेंट गेटवे किंवा रोख रकमेचा वापर करण्यास नकार देतात."
+      ],
+      "howToStaySafe": [
+        "एक सुवर्ण नियम लक्षात ठेवा: UPI पिन फक्त पैसे पाठवण्यासाठी आवश्यक असतो, पैसे प्राप्त करण्यासाठी कधीही नाही.",
+        "मेसेजिंग ॲपवर अज्ञात लोकांनी पाठवलेले क्यूआर कोड कधीही स्कॅन करू नका.",
+        "काहीही क्लिक करण्यापूर्वी एसएमएस किंवा नोटिफिकेशन काळजीपूर्वक वाचा.",
+        "जर कोणी तुमच्या UPI ॲपवरील रिक्वेस्ट स्वीकारण्यासाठी दबाव आणत असेल, तर त्वरित व्यवहार रद्द करा.",
+        "तुमच्या UPI ॲपच्या पेंडिंग सेक्शनमधील अज्ञात पेमेंट विनंत्या नाकारा."
+      ],
+      "ifScammed": [
+        "फसवणुकीची तक्रार करण्यासाठी शक्य तितक्या लवकर 1930 वर कॉल करा.",
+        "तुमचे खाते ब्लॉक करण्यासाठी आणि वाद नोंदवण्यासाठी त्वरित तुमच्या बँकेला सूचित करा.",
+        "व्यवहाराची तक्रार करण्यासाठी वापरलेल्या UPI ॲपच्या (GPay, PhonePe, इ.) ग्राहक সহায়तेला संपर्क साधा.",
+        "https://cybercrime.gov.in वर तक्रार नोंदवा.",
+        "रिफंड एजंट असल्याचा दावा करणाऱ्या कोणाहीसोबत कधीही OTP/PIN शेअर करू नका."
+      ],
+      "example": {
+        "channel": "whatsapp",
+        "sender": "+91-9876543210",
+        "text": "नमस्कार, मी तुमचे फर्निचर विकत घेत आहे. मी PhonePe द्वारे ५००० रुपये पाठवले आहेत. तुमच्या बँकेत पैसे मिळवण्यासाठी फक्त ॲप उघडा, 'Pay' वर क्लिक करा आणि पिन प्रविष्ट करा."
+      }
+    },
+    {
+      "slug": "fake-job-lottery",
+      "title": "बनावट जॉब आणि लॉटरी स्कॅम",
+      "summary": "बळी पडलेल्यांना उच्च पगाराच्या नोकरीचे किंवा मोठी लॉटरी जिंकण्याचे आमिष दाखवले जाते, परंतु आधी शुल्क भरण्यास सांगितले जाते.",
+      "image": "/images/scams/fake-job-lottery-hero.svg",
+      "severity": "medium",
+      "images": [
+        { "src": "/images/scams/fake-job-lottery-hero.svg", "alt": "बनावट जॉब आणि लॉटरी हिरो", "caption": "खोट्या संपत्ती आणि नोकरीचे आश्वासन देणारा स्कॅमर." },
+        { "src": "/images/scams/fake-job-lottery-example.svg", "alt": "बनावट जॉब आणि लॉटरी उदाहरण", "caption": "बनावट लॉटरी जिंकण्याची घोषणा करणारा संदेश." },
+        { "src": "/images/scams/fake-job-lottery-redflags.svg", "alt": "बनावट जॉब आणि लॉटरी रॅड फ्लॅग्स", "caption": "नोकरी आणि लॉटरी घोटाळ्यांचे धोक्याचे संकेत." }
+      ],
+      "whatIsIt": "या घोटाळ्यांमध्ये, फसवणूक करणारे तुम्हाला परदेशात उच्च पगाराची नोकरी, सोपे काम आधारित गिग देण्याचे आश्वासन देतात किंवा तुम्ही मोठी लॉटरी अथवा बक्षीस जिंकल्याचा दावा करतात. तथापि, पैसे किंवा नोकरी मिळवण्यासाठी, ते तुम्हाला आगाऊ विविध 'शुल्क' भरण्यास सांगतात.",
+      "howItWorks": [
+        "तुम्हाला एक अनपेक्षित संदेश मिळतो ज्यात दावा केला जातो की तुम्ही लॉटरी जिंकली आहे किंवा उच्च-पगाराच्या अर्धवेळ नोकरीची ऑफर दिली जाते.",
+        "नोकऱ्यांसाठी, ते तुम्हाला सुरुवातीला सोपी कामे (जसे व्हिडिओ लाईक करणे) देऊ शकतात आणि विश्वास निर्माण करण्यासाठी तुम्हाला छोटी रक्कम देऊ शकतात.",
+        "शेवटी, तुम्हाला सांगितले जाते की मोठे बक्षीस मिळण्यापूर्वी तुम्हाला 'रजिस्ट्रेशन', 'टॅक्स' किंवा 'कस्टम क्लिअरन्स' शुल्क भरावे लागेल.",
+        "तुम्ही सुरुवातीचे पेमेंट करता आणि ते वेगवेगळ्या निमित्ताने आणखी पैशांची मागणी करतात.",
+        "एकदा तुम्ही अधिक पैसे देण्यास नकार दिला किंवा तुम्हाला समजले की हा एक घोटाळा आहे, तेव्हा ते सर्व संपर्क तोडतात."
+      ],
+      "redFlags": [
+        "तुम्हाला पैसे किंवा नोकरीच्या बदल्यात पैसे देण्यास सांगितले जाते.",
+        "ज्या लॉटरीमध्ये तुम्ही कधीही भाग घेतला नाही त्यासाठी तुमची 'निवड' केली जाते.",
+        "नोकरीची ऑफर कमी प्रयत्नासाठी अतिशय जास्त परताव्याचे आश्वासन देते.",
+        "संपर्क खराब आहे, गैर-व्यावसायिक आहे किंवा कॉर्पोरेट खात्याऐवजी सामान्य Gmail/Yahoo खात्यावरून येतो.",
+        "ते अज्ञात व्यक्तींना पेमेंट करण्याची मागणी करतात."
+      ],
+      "howToStaySafe": [
+        "नोकरी किंवा लॉटरी जिंकण्यासाठी कधीही कोणतेही 'नोंदणी शुल्क', 'सुरक्षा ठेव' किंवा 'प्रोसेसिंग फी' देऊ नका.",
+        "अज्ञात नंबरवरून व्हॉट्सॲप किंवा टेलिग्रामवर येणाऱ्या अनपेक्षित नोकरीच्या ऑफर्सवर विश्वास ठेवू नका.",
+        "कंपनीची पडताळणी त्यांच्या अधिकृत करिअर वेबसाइटद्वारे करा.",
+        "लक्षात ठेवा की वैध नियोक्ते तुम्हाला नोकरीसाठी पैसे देण्यासाठी कधीच सांगणार नाहीत.",
+        "तुम्ही एखाद्या स्पर्धेत जिंकल्याचा दावा करणाऱ्या संदेशांकडे दुर्लक्ष करा."
+      ],
+      "ifScammed": [
+        "आर्थिक नुकसानीची तक्रार करण्यासाठी शक्य तितक्या लवकर 1930 वर कॉल करा.",
+        "तुम्ही नुकतेच पेमेंट केले असल्यास हस्तांतरण ब्लॉक करण्यासाठी त्वरित तुमच्या बँकेला सूचित करा.",
+        "स्कॅमर्ससोबतचे सर्व संपर्क थांबवा. त्यांना कोणतेही 'रिकव्हरी' शुल्क देऊ नका.",
+        "राष्ट्रीय सायबर गुन्हे पोर्टलवर स्कॅमर्सची तक्रार करा.",
+        "तुमचे हरवलेले पैसे परत मिळवून देण्याचा दावा करणाऱ्या कोणाहीसोबत कधीही OTP/PIN शेअर करू नका."
+      ],
+      "example": {
+        "channel": "sms",
+        "sender": "TF-REWARD",
+        "text": "अभिनंदन! तुमच्या मोबाईल नंबरने ऑल इंडिया मेगा ड्रॉमध्ये २५,००,००० रुपये जिंकले आहेत. ५००० प्रोसेसिंग फी hxxp://fake-lottery-claim[.]example वर भरा."
+      }
+    }
+  ]
+}

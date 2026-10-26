@@ -1,0 +1,218 @@
+[
+  {
+    "id": "85fc2130-8446-4082-9e4f-2ad25bf71c69",
+    "channel": "email",
+    "message": "This is a test message to report a scam that happened.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.191Z"
+  },
+  {
+    "id": "f9d4b3c7-002b-4f1d-a23c-97bb0ed09f9c",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.214Z"
+  },
+  {
+    "id": "d08b176b-8fa1-4af6-b09b-c1793d072d3c",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.227Z"
+  },
+  {
+    "id": "bd87be57-43b6-4899-96f0-5ed256635ef8",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.236Z"
+  },
+  {
+    "id": "663cfd36-5e1d-4942-b055-e068d6993397",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.246Z"
+  },
+  {
+    "id": "095b06fd-a924-4004-9821-73960cb80259",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.256Z"
+  },
+  {
+    "id": "c7e14647-7e85-4a18-81b3-f55afb95c3e1",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.267Z"
+  },
+  {
+    "id": "345da2dc-d055-4266-9063-d36ab3c670b6",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.276Z"
+  },
+  {
+    "id": "f5e2c630-6d2b-4577-ab64-a1e74aa6bff6",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-05T17:01:47.286Z"
+  },
+  {
+    "id": "fcaa1ef6-6859-4f56-9383-5e186e81c9b1",
+    "channel": "email",
+    "message": "This is a test message to report a scam that happened.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.030Z"
+  },
+  {
+    "id": "9a27197b-1ea9-4baa-82bf-01b1049d6926",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.048Z"
+  },
+  {
+    "id": "1b7ddce6-cf4b-484e-ad91-1fd7b154a423",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.056Z"
+  },
+  {
+    "id": "2aeea835-9de9-4e8c-8779-8fec74456194",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.064Z"
+  },
+  {
+    "id": "5faa65cc-c2ee-4375-aacb-f5e6bc8c103c",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.072Z"
+  },
+  {
+    "id": "6a433e02-fb82-480a-b237-811e1e4d47fa",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.081Z"
+  },
+  {
+    "id": "4bea926b-64be-490a-bc1f-0620b2af46dd",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.093Z"
+  },
+  {
+    "id": "61602004-5f7e-4c51-9732-119a086963fd",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.103Z"
+  },
+  {
+    "id": "9270024a-f8cf-4bd3-8324-f94380b1b3d4",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:01:57.114Z"
+  },
+  {
+    "id": "11feadc4-014b-4d98-9528-f98e7da3f838",
+    "channel": "email",
+    "message": "This is a test message to report a scam that happened.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.014Z"
+  },
+  {
+    "id": "2f89c334-9f24-4dab-9420-5eaa1e1bc114",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.033Z"
+  },
+  {
+    "id": "0b551dc9-ca6e-47a9-aab8-b41f1308f677",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.041Z"
+  },
+  {
+    "id": "9806ec49-7bb1-4594-9c77-126a7662e916",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.050Z"
+  },
+  {
+    "id": "510f986f-6d4a-442b-a365-50e3545a6b4d",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.058Z"
+  },
+  {
+    "id": "f47e7c54-0f84-4f47-8458-93d869c78db1",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.067Z"
+  },
+  {
+    "id": "40b01137-6fc3-44f3-aaac-92d47b1d05ac",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.076Z"
+  },
+  {
+    "id": "fe34bed4-8c08-4ef2-9982-6ec324d33eaf",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.084Z"
+  },
+  {
+    "id": "d8403d65-59e6-4424-98bc-9d500404744d",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-10-26T16:03:17.092Z"
+  }
+]

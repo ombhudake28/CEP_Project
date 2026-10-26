@@ -1,0 +1,107 @@
+{
+  "en": {
+    "national": [
+      { "id": "helpline_1930", "name": "National Cyber Crime Helpline", "phone": "1930", "website": "", "description": "Call immediately to report financial cyber fraud and stop the transaction." },
+      { "id": "portal", "name": "National Cyber Crime Reporting Portal", "phone": "", "website": "https://cybercrime.gov.in", "description": "Lodge an online complaint for any type of cyber crime." },
+      { "id": "emergency_112", "name": "National Emergency Number", "phone": "112", "website": "", "description": "In case of any immediate physical threat or emergency." }
+    ],
+    "states": {
+      "MH": {
+        "code": "MH",
+        "name": "Maharashtra",
+        "contacts": [
+          { "name": "Maharashtra Cyber Cell", "phone": "", "website": "", "description": "For local cyber complaints in Maharashtra, please call the centralized helpline 1930 or visit https://cybercrime.gov.in." }
+        ]
+      },
+      "DL": {
+        "code": "DL",
+        "name": "Delhi",
+        "contacts": [
+          { "name": "Delhi Police Cyber Crime", "phone": "", "website": "", "description": "For local cyber complaints in Delhi, please call the centralized helpline 1930 or visit https://cybercrime.gov.in." }
+        ]
+      },
+      "KA": {
+        "code": "KA",
+        "name": "Karnataka",
+        "contacts": [
+          { "name": "Karnataka Cyber Crime Department", "phone": "", "website": "", "description": "For local cyber complaints in Karnataka, please call the centralized helpline 1930 or visit https://cybercrime.gov.in." }
+        ]
+      }
+    },
+    "availableStates": [
+      { "code": "MH", "name": "Maharashtra" },
+      { "code": "DL", "name": "Delhi" },
+      { "code": "KA", "name": "Karnataka" }
+    ]
+  },
+  "hi": {
+    "national": [
+      { "id": "helpline_1930", "name": "राष्ट्रीय साइबर अपराध हेल्पलाइन", "phone": "1930", "website": "", "description": "वित्तीय साइबर धोखाधड़ी की रिपोर्ट करने और लेनदेन को रोकने के लिए तुरंत कॉल करें।" },
+      { "id": "portal", "name": "राष्ट्रीय साइबर अपराध रिपोर्टिंग पोर्टल", "phone": "", "website": "https://cybercrime.gov.in", "description": "किसी भी प्रकार के साइबर अपराध के लिए ऑनलाइन शिकायत दर्ज करें।" },
+      { "id": "emergency_112", "name": "राष्ट्रीय आपातकालीन नंबर", "phone": "112", "website": "", "description": "किसी भी तत्काल शारीरिक खतरे या आपातकाल के मामले में।" }
+    ],
+    "states": {
+      "MH": {
+        "code": "MH",
+        "name": "महाराष्ट्र",
+        "contacts": [
+          { "name": "महाराष्ट्र साइबर सेल", "phone": "", "website": "", "description": "महाराष्ट्र में साइबर शिकायतों के लिए, कृपया केंद्रीकृत हेल्पलाइन 1930 पर कॉल करें या https://cybercrime.gov.in पर जाएं।" }
+        ]
+      },
+      "DL": {
+        "code": "DL",
+        "name": "दिल्ली",
+        "contacts": [
+          { "name": "दिल्ली पुलिस साइबर अपराध", "phone": "", "website": "", "description": "दिल्ली में साइबर शिकायतों के लिए, कृपया केंद्रीकृत हेल्पलाइन 1930 पर कॉल करें या https://cybercrime.gov.in पर जाएं।" }
+        ]
+      },
+      "KA": {
+        "code": "KA",
+        "name": "कर्नाटक",
+        "contacts": [
+          { "name": "कर्नाटक साइबर अपराध विभाग", "phone": "", "website": "", "description": "कर्नाटक में साइबर शिकायतों के लिए, कृपया केंद्रीकृत हेल्पलाइन 1930 पर कॉल करें या https://cybercrime.gov.in पर जाएं।" }
+        ]
+      }
+    },
+    "availableStates": [
+      { "code": "MH", "name": "महाराष्ट्र" },
+      { "code": "DL", "name": "दिल्ली" },
+      { "code": "KA", "name": "कर्नाटक" }
+    ]
+  },
+  "mr": {
+    "national": [
+      { "id": "helpline_1930", "name": "राष्ट्रीय सायबर गुन्हे हेल्पलाइन", "phone": "1930", "website": "", "description": "वित्तीय सायबर फसवणुकीची तक्रार करण्यासाठी आणि व्यवहार थांबवण्यासाठी त्वरित कॉल करा." },
+      { "id": "portal", "name": "राष्ट्रीय सायबर गुन्हे अहवाल पोर्टल", "phone": "", "website": "https://cybercrime.gov.in", "description": "कोणत्याही प्रकारच्या सायबर गुन्ह्याची ऑनलाइन तक्रार दाखल करा." },
+      { "id": "emergency_112", "name": "राष्ट्रीय आणीबाणी क्रमांक", "phone": "112", "website": "", "description": "कोणत्याही तात्काळ शारीरिक धोका किंवा आणीबाणीच्या परिस्थितीत." }
+    ],
+    "states": {
+      "MH": {
+        "code": "MH",
+        "name": "महाराष्ट्र",
+        "contacts": [
+          { "name": "महाराष्ट्र सायबर सेल", "phone": "", "website": "", "description": "महाराष्ट्रातील सायबर तक्रारींसाठी, कृपया 1930 या मध्यवर्ती हेल्पलाइनवर कॉल करा किंवा https://cybercrime.gov.in ला भेट द्या." }
+        ]
+      },
+      "DL": {
+        "code": "DL",
+        "name": "दिल्ली",
+        "contacts": [
+          { "name": "दिल्ली पोलीस सायबर क्राईम", "phone": "", "website": "", "description": "दिल्लीतील सायबर तक्रारींसाठी, कृपया 1930 या मध्यवर्ती हेल्पलाइनवर कॉल करा किंवा https://cybercrime.gov.in ला भेट द्या." }
+        ]
+      },
+      "KA": {
+        "code": "KA",
+        "name": "कर्नाटक",
+        "contacts": [
+          { "name": "कर्नाटक सायबर क्राईम विभाग", "phone": "", "website": "", "description": "कर्नाटकातील सायबर तक्रारींसाठी, कृपया 1930 या मध्यवर्ती हेल्पलाइनवर कॉल करा किंवा https://cybercrime.gov.in ला भेट द्या." }
+        ]
+      }
+    },
+    "availableStates": [
+      { "code": "MH", "name": "महाराष्ट्र" },
+      { "code": "DL", "name": "दिल्ली" },
+      { "code": "KA", "name": "कर्नाटक" }
+    ]
+  }
+}
