@@ -222,5 +222,77 @@
     "contact": "4467616495",
     "consent": true,
     "receivedAt": "2026-10-27T18:25:44.131Z"
+  },
+  {
+    "id": "c0986a14-ac38-435e-b8f8-0bf0f14bc0e0",
+    "channel": "email",
+    "message": "This is a test message to report a scam that happened.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.304Z"
+  },
+  {
+    "id": "5c6c4717-98b0-4716-a87a-dd215852ca14",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.323Z"
+  },
+  {
+    "id": "b1c741e2-611c-412c-906d-230b7d472f51",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.332Z"
+  },
+  {
+    "id": "534f70ea-f56c-4938-945e-6346906d0f17",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.340Z"
+  },
+  {
+    "id": "942e4e2c-4e2f-47e5-80cc-3442c6e97ff6",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.350Z"
+  },
+  {
+    "id": "64d88330-81fe-4dd9-9600-f511d513ec0d",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.359Z"
+  },
+  {
+    "id": "4b86ac0d-bbd7-4e81-924b-cbde0e603f7f",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.368Z"
+  },
+  {
+    "id": "34c84c93-5893-4b38-9c29-e9afe33e1575",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.378Z"
+  },
+  {
+    "id": "82f212d1-855d-4702-b0fb-b26c5d5d53ad",
+    "channel": "sms",
+    "message": "Rate limit test string for report.",
+    "contact": null,
+    "consent": true,
+    "receivedAt": "2026-11-24T16:23:25.387Z"
   }
 ]
