@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29"/>
+      <stop offset="50%" style="stop-color:#302b63"/>
+      <stop offset="100%" style="stop-color:#24243e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7971e"/>
+      <stop offset="100%" style="stop-color:#ffd200"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eb3349"/>
+      <stop offset="100%" style="stop-color:#f45c43"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg)"/>
+
+  <!-- Stars -->
+  <circle cx="50" cy="40" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="120" cy="80" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="200" cy="30" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="350" cy="60" r="1" fill="#fff" opacity="0.3"/>
+  <circle cx="500" cy="25" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="650" cy="70" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="740" cy="40" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="780" cy="110" r="1" fill="#fff" opacity="0.3"/>
+
+  <!-- Ground platform -->
+  <ellipse cx="400" cy="420" rx="380" ry="25" fill="#1a1535" opacity="0.7"/>
+
+  <!-- Scammer figure (left side) -->
+  <!-- Body -->
+  <rect x="100" y="200" width="70" height="100" rx="10" fill="#302b63" filter="url(#shadow)"/>
+  <!-- Head -->
+  <circle cx="135" cy="185" r="32" fill="#302b63" filter="url(#shadow)"/>
+  <!-- Face mask - evil -->
+  <circle cx="135" cy="185" r="28" fill="#24243e"/>
+  <!-- Evil eyes -->
+  <ellipse cx="124" cy="180" rx="6" ry="4" fill="#eb3349"/>
+  <ellipse cx="146" cy="180" rx="6" ry="4" fill="#eb3349"/>
+  <path d="M120 195 Q135 205 150 195" stroke="#eb3349" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Hat -->
+  <rect x="103" y="152" width="64" height="12" rx="4" fill="#0f0c29"/>
+  <rect x="115" y="118" width="40" height="36" rx="4" fill="#0f0c29"/>
+
+  <!-- Fishing rod -->
+  <line x1="170" y1="160" x2="420" y2="80" stroke="#8b7355" stroke-width="4" stroke-linecap="round"/>
+  <!-- Fishing line -->
+  <line x1="420" y1="80" x2="420" y2="200" stroke="#ffd200" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.8"/>
+
+  <!-- Hook -->
+  <path d="M415 200 Q415 230 430 230 Q450 230 450 210" stroke="#c0c0c0" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Dangling TRAP: lottery ticket -->
+  <g filter="url(#glow)" transform="translate(380,200)">
+    <rect x="0" y="0" width="80" height="50" rx="6" fill="url(#gold)"/>
+    <rect x="4" y="4" width="72" height="42" rx="4" fill="#fff3" stroke="#fff" stroke-width="1" stroke-dasharray="3,2"/>
+    <!-- Trophy icon -->
+    <text x="40" y="32" text-anchor="middle" font-size="24" fill="#fff">🏆</text>
+  </g>
+
+  <!-- Dangling TRAP: job briefcase -->
+  <g filter="url(#glow)" transform="translate(460,220)">
+    <rect x="0" y="0" width="60" height="50" rx="6" fill="#2d8653"/>
+    <rect x="20" y="-8" width="20" height="12" rx="3" fill="#2d8653" stroke="#27714a" stroke-width="1.5"/>
+    <rect x="5" y="18" width="50" height="4" rx="2" fill="#27714a"/>
+    <rect x="27" y="10" width="6" height="30" rx="2" fill="#27714a"/>
+    <text x="30" y="42" text-anchor="middle" font-size="10" fill="#fff" font-family="Arial" font-weight="bold">JOB</text>
+  </g>
+
+  <!-- Trap indicator - red X -->
+  <g transform="translate(390,165)">
+    <circle cx="0" cy="0" r="14" fill="#eb3349" opacity="0.9"/>
+    <line x1="-7" y1="-7" x2="7" y2="7" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <line x1="7" y1="-7" x2="-7" y2="7" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Victim figure (right side) -->
+  <!-- Body -->
+  <rect x="590" y="220" width="60" height="90" rx="10" fill="#4a90d9" filter="url(#shadow)"/>
+  <!-- Head -->
+  <circle cx="620" cy="205" r="28" fill="#f4a261" filter="url(#shadow)"/>
+  <!-- Eyes (longing/reaching) -->
+  <circle cx="610" cy="200" r="5" fill="#fff"/>
+  <circle cx="630" cy="200" r="5" fill="#fff"/>
+  <circle cx="611" cy="201" r="3" fill="#333"/>
+  <circle cx="631" cy="201" r="3" fill="#333"/>
+  <!-- Arms reaching toward bait -->
+  <line x1="590" y1="250" x2="520" y2="230" stroke="#f4a261" stroke-width="10" stroke-linecap="round"/>
+  <line x1="650" y1="250" x2="660" y2="280" stroke="#f4a261" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Floating money being pulled away -->
+  <g opacity="0.8">
+    <rect x="310" y="310" width="50" height="28" rx="4" fill="#2d8653"/>
+    <circle cx="335" cy="324" r="8" fill="#27714a" stroke="#fff" stroke-width="1"/>
+    <text x="335" y="328" text-anchor="middle" font-size="10" fill="#fff" font-family="Arial" font-weight="bold">₹</text>
+  </g>
+  <g opacity="0.6" transform="translate(-40, 20)">
+    <rect x="310" y="310" width="40" height="22" rx="3" fill="#2d8653"/>
+    <text x="330" y="326" text-anchor="middle" font-size="9" fill="#fff" font-family="Arial">₹₹</text>
+  </g>
+
+  <!-- Warning triangle -->
+  <g transform="translate(680,100)" filter="url(#glow)">
+    <polygon points="50,10 90,80 10,80" fill="url(#redGrad)" opacity="0.9"/>
+    <text x="50" y="70" text-anchor="middle" font-size="36" fill="#fff" font-weight="bold" font-family="Arial">!</text>
+  </g>
+
+  <!-- Alert bubble top -->
+  <g transform="translate(220,60)">
+    <rect x="0" y="0" width="200" height="50" rx="12" fill="#eb3349" opacity="0.9"/>
+    <polygon points="40,50 60,50 50,65" fill="#eb3349"/>
+    <text x="100" y="22" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">⚠ TOO GOOD TO BE TRUE!</text>
+    <text x="100" y="40" text-anchor="middle" font-size="11" fill="#ffdddd" font-family="Arial">Never pay fees to get money</text>
+  </g>
+
+  <!-- Sparkle decorations around bait -->
+  <g fill="#ffd200" opacity="0.8" filter="url(#glow)">
+    <polygon points="550,130 555,145 570,145 558,154 562,170 550,161 538,170 542,154 530,145 545,145" />
+  </g>
+  <g fill="#ffd200" opacity="0.5">
+    <polygon points="490,110 493,120 503,120 495,126 498,136 490,130 482,136 485,126 477,120 487,120" />
+  </g>
+</svg>

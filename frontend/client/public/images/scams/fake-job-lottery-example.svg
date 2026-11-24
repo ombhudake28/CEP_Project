@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d2d44"/>
+      <stop offset="100%" style="stop-color:#1e1e30"/>
+    </linearGradient>
+    <linearGradient id="msgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff9e6"/>
+      <stop offset="100%" style="stop-color:#fff3cc"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bg2)"/>
+
+  <!-- Decorative grid lines -->
+  <g stroke="#ffffff" stroke-width="0.5" opacity="0.04">
+    <line x1="0" y1="75" x2="800" y2="75"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="225" x2="800" y2="225"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="375" x2="800" y2="375"/>
+    <line x1="100" y1="0" x2="100" y2="450"/>
+    <line x1="200" y1="0" x2="200" y2="450"/>
+    <line x1="300" y1="0" x2="300" y2="450"/>
+    <line x1="400" y1="0" x2="400" y2="450"/>
+    <line x1="500" y1="0" x2="500" y2="450"/>
+    <line x1="600" y1="0" x2="600" y2="450"/>
+    <line x1="700" y1="0" x2="700" y2="450"/>
+  </g>
+
+  <!-- Phone mockup -->
+  <rect x="250" y="40" width="300" height="370" rx="30" fill="url(#phone)" filter="url(#shadow2)"/>
+  <rect x="258" y="48" width="284" height="354" rx="24" fill="#0a0a18"/>
+  <!-- Notch -->
+  <rect x="330" y="48" width="140" height="22" rx="0 0 14 14" fill="url(#phone)"/>
+  <rect x="368" y="54" width="64" height="10" rx="5" fill="#0a0a18"/>
+
+  <!-- Screen content - Fake SMS notification -->
+  <rect x="266" y="82" width="268" height="310" rx="16" fill="#111122"/>
+
+  <!-- Carrier/Battery bar -->
+  <text x="278" y="100" font-size="9" fill="#aaa" font-family="Arial">9:41 AM</text>
+  <rect x="490" y="93" width="30" height="12" rx="3" fill="none" stroke="#aaa" stroke-width="1.5"/>
+  <rect x="492" y="95" width="24" height="8" rx="2" fill="#4ade80"/>
+  <rect x="520" y="96" width="2" height="6" rx="1" fill="#aaa"/>
+  <circle cx="476" cy="99" r="4" fill="none" stroke="#aaa" stroke-width="1.5"/>
+  <text x="461" y="103" font-size="9" fill="#aaa" font-family="Arial">●●●</text>
+
+  <!-- Notification heading -->
+  <rect x="270" y="108" width="256" height="28" rx="4" fill="#1e1e3a"/>
+  <text x="282" y="127" font-size="11" fill="#a0a8d0" font-family="Arial" font-weight="bold">📩 SMS - TF-REWARD</text>
+
+  <!-- Message card -->
+  <rect x="270" y="143" width="256" height="160" rx="10" fill="url(#msgGrad)"/>
+
+  <!-- Crown icon -->
+  <text x="288" y="168" font-size="22" fill="#f59e0b">👑</text>
+
+  <!-- Message text -->
+  <text x="288" y="188" font-size="10.5" fill="#1a1a2e" font-family="Arial" font-weight="bold">🎉 CONGRATULATIONS!</text>
+  <text x="288" y="205" font-size="9.5" fill="#333" font-family="Arial">Your number WON</text>
+  <text x="288" y="220" font-size="14" fill="#c0392b" font-family="Arial" font-weight="bold">₹ 25,00,000/-</text>
+  <text x="288" y="237" font-size="9" fill="#555" font-family="Arial">All India Mega Lottery Draw</text>
+  <line x1="278" y1="244" x2="516" y2="244" stroke="#ddd" stroke-width="1"/>
+  <text x="288" y="260" font-size="9" fill="#555" font-family="Arial">Pay processing fee of</text>
+  <text x="288" y="275" font-size="12" fill="#c0392b" font-family="Arial" font-weight="bold">₹ 5,000 only</text>
+  <text x="288" y="290" font-size="9" fill="#555" font-family="Arial">to claim your prize now!</text>
+
+  <!-- Fake claim button -->
+  <rect x="280" y="298" width="236" height="32" rx="16" fill="#c0392b"/>
+  <text x="398" y="319" text-anchor="middle" font-size="11" fill="#fff" font-family="Arial" font-weight="bold">CLAIM YOUR PRIZE NOW!</text>
+
+  <!-- Red warning annotations (outside phone) -->
+  <!-- Left side annotations -->
+  <g filter="url(#glow2)">
+    <!-- Point to "won lottery" -->
+    <line x1="248" y1="175" x2="290" y2="220" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="60" y="155" width="180" height="42" rx="8" fill="#ef4444" opacity="0.95"/>
+    <text x="150" y="172" text-anchor="middle" font-size="10" fill="#fff" font-family="Arial" font-weight="bold">⚠ Never entered</text>
+    <text x="150" y="188" text-anchor="middle" font-size="10" fill="#ffdddd" font-family="Arial">any lottery draw!</text>
+
+    <!-- Point to fee -->
+    <line x1="248" y1="310" x2="280" y2="310" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="50" y="290" width="195" height="42" rx="8" fill="#ef4444" opacity="0.95"/>
+    <text x="147" y="307" text-anchor="middle" font-size="10" fill="#fff" font-family="Arial" font-weight="bold">⚠ Legit wins NEVER</text>
+    <text x="147" y="323" text-anchor="middle" font-size="10" fill="#ffdddd" font-family="Arial">require upfront payment!</text>
+  </g>
+
+  <!-- Right side -->
+  <g filter="url(#glow2)">
+    <!-- Point to sender -->
+    <line x1="554" y1="122" x2="527" y2="122" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="557" y="105" width="185" height="35" rx="8" fill="#f59e0b" opacity="0.95"/>
+    <text x="649" y="119" text-anchor="middle" font-size="10" fill="#1a1a2e" font-family="Arial" font-weight="bold">⚠ Unknown SMS sender</text>
+    <text x="649" y="133" text-anchor="middle" font-size="10" fill="#1a1a2e" font-family="Arial">No official branding</text>
+
+    <!-- Point to claim button -->
+    <line x1="554" y1="314" x2="516" y2="314" stroke="#ef4444" stroke-width="2" stroke-dasharray="4,3"/>
+    <rect x="557" y="298" width="185" height="35" rx="8" fill="#ef4444" opacity="0.95"/>
+    <text x="649" y="312" text-anchor="middle" font-size="10" fill="#fff" font-family="Arial" font-weight="bold">⚠ Phishing link!</text>
+    <text x="649" y="326" text-anchor="middle" font-size="10" fill="#ffdddd" font-family="Arial">Leads to fake website</text>
+  </g>
+
+  <!-- Bottom banner -->
+  <rect x="0" y="415" width="800" height="35" fill="#ef4444" opacity="0.9"/>
+  <text x="400" y="438" text-anchor="middle" font-size="13" fill="#fff" font-family="Arial" font-weight="bold">🚫 DO NOT PAY • Report on cybercrime.gov.in • Call 1930</text>
+</svg>
