@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgCrRF" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1a0d"/>
+      <stop offset="50%" style="stop-color:#051a05"/>
+      <stop offset="100%" style="stop-color:#0a1a0d"/>
+    </linearGradient>
+    <linearGradient id="cardGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14532d"/>
+      <stop offset="100%" style="stop-color:#166534"/>
+    </linearGradient>
+    <linearGradient id="cardAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#78350f"/>
+      <stop offset="100%" style="stop-color:#92400e"/>
+    </linearGradient>
+    <filter id="glowCrRF">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cardShadowCr">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgCrRF)"/>
+
+  <!-- Decorative dots -->
+  <g fill="#16a34a" opacity="0.1">
+    <circle cx="50" cy="60" r="3"/><circle cx="150" cy="30" r="2"/><circle cx="700" cy="50" r="3"/>
+    <circle cx="760" cy="120" r="2"/><circle cx="30" cy="200" r="2"/><circle cx="780" cy="300" r="3"/>
+    <circle cx="100" cy="400" r="2"/><circle cx="720" cy="420" r="2"/>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-size="20" fill="#4ade80" font-family="Arial" font-weight="bold" filter="url(#glowCrRF)">⚠ RED FLAGS — Crypto Transaction Fraud</text>
+  <line x1="100" y1="52" x2="700" y2="52" stroke="#16a34a" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Card 1: Guaranteed Returns -->
+  <g filter="url(#cardShadowCr)">
+    <rect x="30" y="68" width="220" height="158" rx="14" fill="url(#cardGreen)"/>
+    <rect x="30" y="68" width="220" height="6" rx="14" fill="#22c55e"/>
+    <text x="140" y="115" text-anchor="middle" font-size="36" fill="#fff">📈</text>
+    <text x="140" y="145" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">"Guaranteed Returns"</text>
+    <text x="140" y="163" text-anchor="middle" font-size="10" fill="#bbf7d0" font-family="Arial">Promises of "1000% ROI"</text>
+    <text x="140" y="178" text-anchor="middle" font-size="10" fill="#bbf7d0" font-family="Arial">or "double your BTC fast"</text>
+    <text x="140" y="216" text-anchor="middle" font-size="9" fill="#4ade80" font-family="Arial" font-weight="bold">NO INVESTMENT IS GUARANTEED!</text>
+  </g>
+
+  <!-- Card 2: Pressure & Urgency -->
+  <g filter="url(#cardShadowCr)">
+    <rect x="290" y="68" width="220" height="158" rx="14" fill="url(#cardAmber)"/>
+    <rect x="290" y="68" width="220" height="6" rx="14" fill="#f59e0b"/>
+    <text x="400" y="115" text-anchor="middle" font-size="36" fill="#fff">⏰</text>
+    <text x="400" y="145" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">FOMO &amp; Fake Urgency</text>
+    <text x="400" y="163" text-anchor="middle" font-size="10" fill="#fde68a" font-family="Arial">"Only 3 spots left!"</text>
+    <text x="400" y="178" text-anchor="middle" font-size="10" fill="#fde68a" font-family="Arial">"Offer expires in 1 hour!"</text>
+    <text x="400" y="216" text-anchor="middle" font-size="9" fill="#f59e0b" font-family="Arial" font-weight="bold">TAKE TIME TO RESEARCH FIRST!</text>
+  </g>
+
+  <!-- Card 3: Send Crypto First -->
+  <g filter="url(#cardShadowCr)">
+    <rect x="550" y="68" width="220" height="158" rx="14" fill="url(#cardGreen)"/>
+    <rect x="550" y="68" width="220" height="6" rx="14" fill="#22c55e"/>
+    <text x="660" y="115" text-anchor="middle" font-size="36" fill="#fff">₿</text>
+    <text x="660" y="145" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Send Crypto First</text>
+    <text x="660" y="163" text-anchor="middle" font-size="10" fill="#bbf7d0" font-family="Arial">Must deposit crypto before</text>
+    <text x="660" y="178" text-anchor="middle" font-size="10" fill="#bbf7d0" font-family="Arial">getting profits or access</text>
+    <text x="660" y="216" text-anchor="middle" font-size="9" fill="#4ade80" font-family="Arial" font-weight="bold">ADVANCE FEE = ALWAYS SCAM!</text>
+  </g>
+
+  <!-- Card 4: Anonymous Identity -->
+  <g filter="url(#cardShadowCr)">
+    <rect x="30" y="250" width="220" height="158" rx="14" fill="url(#cardAmber)"/>
+    <rect x="30" y="250" width="220" height="6" rx="14" fill="#f59e0b"/>
+    <text x="140" y="297" text-anchor="middle" font-size="36" fill="#fff">🕵️</text>
+    <text x="140" y="327" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Anonymous Promoters</text>
+    <text x="140" y="345" text-anchor="middle" font-size="10" fill="#fde68a" font-family="Arial">No verifiable company,</text>
+    <text x="140" y="360" text-anchor="middle" font-size="10" fill="#fde68a" font-family="Arial">only Telegram/WhatsApp</text>
+    <text x="140" y="398" text-anchor="middle" font-size="9" fill="#f59e0b" font-family="Arial" font-weight="bold">ALWAYS VERIFY IDENTITY!</text>
+  </g>
+
+  <!-- Card 5: Fake Proof & Screenshots -->
+  <g filter="url(#cardShadowCr)">
+    <rect x="290" y="250" width="220" height="158" rx="14" fill="url(#cardGreen)"/>
+    <rect x="290" y="250" width="220" height="6" rx="14" fill="#22c55e"/>
+    <text x="400" y="297" text-anchor="middle" font-size="36" fill="#fff">🖼️</text>
+    <text x="400" y="327" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Fake Profit Screenshots</text>
+    <text x="400" y="345" text-anchor="middle" font-size="10" fill="#bbf7d0" font-family="Arial">Edited screenshots showing</text>
+    <text x="400" y="360" text-anchor="middle" font-size="10" fill="#bbf7d0" font-family="Arial">huge fake profit numbers</text>
+    <text x="400" y="398" text-anchor="middle" font-size="9" fill="#4ade80" font-family="Arial" font-weight="bold">SCREENSHOTS ARE EASILY FAKED!</text>
+  </g>
+
+  <!-- Card 6: Withdrawal Problems -->
+  <g filter="url(#cardShadowCr)">
+    <rect x="550" y="250" width="220" height="158" rx="14" fill="url(#cardAmber)"/>
+    <rect x="550" y="250" width="220" height="6" rx="14" fill="#f59e0b"/>
+    <text x="660" y="297" text-anchor="middle" font-size="36" fill="#fff">🔒</text>
+    <text x="660" y="327" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Can't Withdraw Funds</text>
+    <text x="660" y="345" text-anchor="middle" font-size="10" fill="#fde68a" font-family="Arial">Profits exist on screen but</text>
+    <text x="660" y="360" text-anchor="middle" font-size="10" fill="#fde68a" font-family="Arial">withdrawal always "fails"</text>
+    <text x="660" y="398" text-anchor="middle" font-size="9" fill="#f59e0b" font-family="Arial" font-weight="bold">YOUR MONEY IS ALREADY GONE!</text>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="420" width="800" height="30" fill="#14532d" opacity="0.95"/>
+  <text x="400" y="440" text-anchor="middle" font-size="11" fill="#86efac" font-family="Arial" font-weight="bold">If you spot any of these signs — STOP immediately • Report to cybercrime.gov.in • Call 1930</text>
+</svg>

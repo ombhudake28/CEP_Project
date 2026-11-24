@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgCrypto" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a1a0d"/>
+      <stop offset="50%" style="stop-color:#0d2b1a"/>
+      <stop offset="100%" style="stop-color:#0a1a0d"/>
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b"/>
+      <stop offset="100%" style="stop-color:#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="scammerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f2937"/>
+      <stop offset="100%" style="stop-color:#111827"/>
+    </linearGradient>
+    <linearGradient id="victimGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a5f"/>
+      <stop offset="100%" style="stop-color:#0f2440"/>
+    </linearGradient>
+    <filter id="glowCrypto">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadowCrypto">
+      <feDropShadow dx="2" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgCrypto)"/>
+
+  <!-- Background matrix-style dots -->
+  <g fill="#16a34a" opacity="0.08">
+    <circle cx="40" cy="40" r="2"/><circle cx="80" cy="80" r="1.5"/><circle cx="120" cy="40" r="2"/>
+    <circle cx="160" cy="100" r="1.5"/><circle cx="200" cy="50" r="2"/><circle cx="600" cy="40" r="2"/>
+    <circle cx="640" cy="90" r="1.5"/><circle cx="680" cy="40" r="2"/><circle cx="720" cy="100" r="1.5"/>
+    <circle cx="760" cy="50" r="2"/><circle cx="40" cy="380" r="2"/><circle cx="760" cy="380" r="2"/>
+  </g>
+
+  <!-- Title banner -->
+  <rect x="200" y="15" width="400" height="38" rx="10" fill="#14532d" opacity="0.9" stroke="#16a34a" stroke-width="1"/>
+  <text x="400" y="31" text-anchor="middle" font-size="12" fill="#86efac" font-family="Arial" font-weight="bold">⚠ CRYPTO TRANSACTION FRAUD</text>
+  <text x="400" y="46" text-anchor="middle" font-size="10" fill="#6ee7b7" font-family="Arial">Scammers promise massive crypto returns to steal your investment</text>
+
+  <!-- Large Bitcoin coin in center (being stolen) -->
+  <g transform="translate(340, 150)" filter="url(#glowCrypto)">
+    <circle cx="60" cy="60" r="58" fill="url(#coinGrad)" stroke="#d97706" stroke-width="3"/>
+    <circle cx="60" cy="60" r="50" fill="#f59e0b" stroke="#b45309" stroke-width="2"/>
+    <text x="60" y="78" text-anchor="middle" font-size="52" fill="#78350f" font-weight="bold" font-family="Arial">₿</text>
+  </g>
+
+  <!-- Arrow showing coin going to scammer -->
+  <path d="M 325 195 Q 230 180 155 240" stroke="#ef4444" stroke-width="4" fill="none" stroke-dasharray="12,6" marker-end="url(#arrowRed)" filter="url(#glowCrypto)" opacity="0.9"/>
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+  </defs>
+  <text x="225" y="175" text-anchor="middle" font-size="11" fill="#fca5a5" font-family="Arial" font-weight="bold" transform="rotate(-10, 225, 175)">YOUR MONEY</text>
+  <text x="225" y="188" text-anchor="middle" font-size="11" fill="#fca5a5" font-family="Arial" font-weight="bold" transform="rotate(-10, 225, 188)">→ SCAMMER</text>
+
+  <!-- Scammer figure (left) -->
+  <g transform="translate(60, 180)" filter="url(#shadowCrypto)">
+    <rect x="10" y="60" width="70" height="90" rx="10" fill="url(#scammerGrad)"/>
+    <circle cx="45" cy="45" r="32" fill="#1f2937"/>
+    <circle cx="45" cy="45" r="27" fill="#111827"/>
+    <!-- Evil eyes -->
+    <ellipse cx="34" cy="40" rx="6" ry="4" fill="#ef4444"/>
+    <ellipse cx="56" cy="40" rx="6" ry="4" fill="#ef4444"/>
+    <!-- Evil grin -->
+    <path d="M30 55 Q45 68 60 55" stroke="#ef4444" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Hood -->
+    <path d="M13 20 Q45 -5 77 20 L77 50 Q60 35 45 35 Q30 35 13 50 Z" fill="#374151" opacity="0.7"/>
+    <!-- Money bag in hand -->
+    <circle cx="85" cy="110" r="20" fill="#f59e0b" stroke="#d97706" stroke-width="2"/>
+    <text x="85" y="118" text-anchor="middle" font-size="18" fill="#78350f" font-weight="bold" font-family="Arial">₿</text>
+  </g>
+  <text x="105" y="310" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial">SCAMMER</text>
+
+  <!-- Victim figure (right) -->
+  <g transform="translate(580, 180)" filter="url(#shadowCrypto)">
+    <rect x="10" y="60" width="70" height="90" rx="10" fill="url(#victimGrad)"/>
+    <circle cx="45" cy="45" r="30" fill="#f4a261"/>
+    <!-- Sad eyes -->
+    <circle cx="34" cy="40" r="5" fill="#fff"/>
+    <circle cx="56" cy="40" r="5" fill="#fff"/>
+    <circle cx="34" cy="41" r="3" fill="#333"/>
+    <circle cx="56" cy="41" r="3" fill="#333"/>
+    <!-- Sad mouth -->
+    <path d="M32 57 Q45 50 58 57" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Empty wallet in hand -->
+    <rect x="72" y="100" width="38" height="26" rx="5" fill="#374151" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="91" y="118" text-anchor="middle" font-size="18" fill="#6b7280">$</text>
+    <line x1="80" y1="108" x2="90" y2="118" stroke="#ef4444" stroke-width="2.5"/>
+    <line x1="90" y1="108" x2="80" y2="118" stroke="#ef4444" stroke-width="2.5"/>
+  </g>
+  <text x="625" y="310" text-anchor="middle" font-size="11" fill="#6b7280" font-family="Arial">VICTIM</text>
+
+  <!-- Fake promise bubble from scammer to victim -->
+  <rect x="200" y="330" width="400" height="62" rx="12" fill="#14532d" stroke="#16a34a" stroke-width="1.5" opacity="0.9"/>
+  <polygon points="210,330 230,330 220,318" fill="#14532d" stroke="#16a34a" stroke-width="1"/>
+  <text x="400" y="350" text-anchor="middle" font-size="12" fill="#86efac" font-family="Arial" font-weight="bold">📱 "Invest ₹10,000 in Bitcoin — Get ₹1,00,000 in 7 days!"</text>
+  <text x="400" y="368" text-anchor="middle" font-size="11" fill="#6ee7b7" font-family="Arial">"100% guaranteed returns! Limited spots — act NOW!"</text>
+  <text x="400" y="384" text-anchor="middle" font-size="10" fill="#ef4444" font-family="Arial" font-weight="bold">⚠ THIS IS A SCAM — NO LEGITIMATE INVESTMENT GUARANTEES RETURNS</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="425" width="800" height="25" fill="#14532d" opacity="0.9"/>
+  <text x="400" y="442" text-anchor="middle" font-size="10" fill="#86efac" font-family="Arial" font-weight="bold">🚫 Crypto is unregulated — once sent, it CANNOT be recovered • Report: cybercrime.gov.in</text>
+</svg>

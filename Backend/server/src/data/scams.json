@@ -1,4 +1,4 @@
-﻿{
+{
   "en": [
     {
       "slug": "phishing",
@@ -7,9 +7,21 @@
       "image": "/images/scams/phishing-hero.png",
       "severity": "high",
       "images": [
-        { "src": "/images/scams/phishing-hero.png", "alt": "Phishing Hero", "caption": "A scammer sending a fake email to steal data." },
-        { "src": "/images/scams/phishing-example.png", "alt": "Phishing Example", "caption": "An example of a phishing email claiming your account is blocked." },
-        { "src": "/images/scams/phishing-redflags.png", "alt": "Phishing Red Flags", "caption": "Red flags indicating a phishing attempt." }
+        {
+          "src": "/images/scams/phishing-hero.png",
+          "alt": "Phishing Hero",
+          "caption": "A scammer sending a fake email to steal data."
+        },
+        {
+          "src": "/images/scams/phishing-example.png",
+          "alt": "Phishing Example",
+          "caption": "An example of a phishing email claiming your account is blocked."
+        },
+        {
+          "src": "/images/scams/phishing-redflags.png",
+          "alt": "Phishing Red Flags",
+          "caption": "Red flags indicating a phishing attempt."
+        }
       ],
       "whatIsIt": "Phishing is a cyber attack where scammers pretend to be a trusted entity (like a bank or government agency) to trick you into revealing sensitive information such as passwords, OTPs, or credit card details.",
       "howItWorks": [
@@ -54,9 +66,21 @@
       "image": "/images/scams/upi-fraud-hero.png",
       "severity": "high",
       "images": [
-        { "src": "/images/scams/upi-fraud-hero.png", "alt": "UPI Fraud Hero", "caption": "A scammer sending a deceptive UPI payment request." },
-        { "src": "/images/scams/upi-fraud-example.png", "alt": "UPI Fraud Example", "caption": "An example of a malicious UPI collect notification." },
-        { "src": "/images/scams/upi-fraud-redflags.png", "alt": "UPI Fraud Red Flags", "caption": "Warning signs of a UPI collect request fraud." }
+        {
+          "src": "/images/scams/upi-fraud-hero.png",
+          "alt": "UPI Fraud Hero",
+          "caption": "A scammer sending a deceptive UPI payment request."
+        },
+        {
+          "src": "/images/scams/upi-fraud-example.png",
+          "alt": "UPI Fraud Example",
+          "caption": "An example of a malicious UPI collect notification."
+        },
+        {
+          "src": "/images/scams/upi-fraud-redflags.png",
+          "alt": "UPI Fraud Red Flags",
+          "caption": "Warning signs of a UPI collect request fraud."
+        }
       ],
       "whatIsIt": "UPI Collect Request Fraud is a common scam where a fraudster poses as a buyer, official, or friend, and sends a 'payment request' on your UPI app instead of sending money to you. They try to trick you into entering your UPI PIN.",
       "howItWorks": [
@@ -100,9 +124,21 @@
       "image": "/images/scams/fake-job-lottery-hero.svg",
       "severity": "medium",
       "images": [
-        { "src": "/images/scams/fake-job-lottery-hero.svg", "alt": "Fake Job & Lottery Hero", "caption": "A scammer promising false riches and jobs." },
-        { "src": "/images/scams/fake-job-lottery-example.svg", "alt": "Fake Job & Lottery Example", "caption": "A message declaring a fake lottery win." },
-        { "src": "/images/scams/fake-job-lottery-redflags.svg", "alt": "Fake Job & Lottery Red Flags", "caption": "Warning signs of job and lottery scams." }
+        {
+          "src": "/images/scams/fake-job-lottery-hero.svg",
+          "alt": "Fake Job & Lottery Hero",
+          "caption": "A scammer promising false riches and jobs."
+        },
+        {
+          "src": "/images/scams/fake-job-lottery-example.svg",
+          "alt": "Fake Job & Lottery Example",
+          "caption": "A message declaring a fake lottery win."
+        },
+        {
+          "src": "/images/scams/fake-job-lottery-redflags.svg",
+          "alt": "Fake Job & Lottery Red Flags",
+          "caption": "Warning signs of job and lottery scams."
+        }
       ],
       "whatIsIt": "In these scams, fraudsters promise you a high-paying overseas job, an easy task-based gig, or claim you have won a massive lottery or prize. However, to get the money or job, they ask you to pay various 'fees' upfront.",
       "howItWorks": [
@@ -138,6 +174,129 @@
         "sender": "TF-REWARD",
         "text": "Congratulations! Your mobile number has won Rs 25,00,000 in the All India Mega Draw. Pay 5000 processing fee to hxxp://fake-lottery-claim[.]example"
       }
+    },
+    {
+      "slug": "dos-ddos",
+      "title": "DoS & DDoS Attack",
+      "summary": "Attackers flood a website or server with massive fake traffic to crash it, making it unavailable to real users — sometimes as a ransom tactic.",
+      "image": "/images/scams/dos-ddos-hero.svg",
+      "severity": "high",
+      "images": [
+        {
+          "src": "/images/scams/dos-ddos-hero.svg",
+          "alt": "DoS & DDoS Attack Hero",
+          "caption": "Thousands of bots flooding a server simultaneously to knock it offline."
+        },
+        {
+          "src": "/images/scams/dos-ddos-example.svg",
+          "alt": "DoS & DDoS Attack Example",
+          "caption": "Real server logs during a DDoS attack — requests spike from 25/sec to 48,000/sec in seconds."
+        },
+        {
+          "src": "/images/scams/dos-ddos-redflags.svg",
+          "alt": "DoS & DDoS Red Flags",
+          "caption": "Warning signs that you or your business may be under a DoS or DDoS attack."
+        }
+      ],
+      "whatIsIt": "A Denial of Service (DoS) attack is when a single attacker floods a server with so many requests that it crashes and legitimate users cannot access it. A Distributed Denial of Service (DDoS) attack is a much more powerful version — the attacker uses thousands of compromised computers ('botnets') spread across the world to flood the target simultaneously. Businesses and government websites are common targets.",
+      "howItWorks": [
+        "The attacker first builds or rents a 'botnet' — a network of thousands of devices infected with malware.",
+        "The attacker commands all the bots to simultaneously send millions of requests to the target's server.",
+        "The server is overwhelmed and cannot process legitimate requests — it slows down and eventually crashes.",
+        "The website or service becomes unavailable to real users (customers, citizens, etc.).",
+        "In Ransom DDoS (RDDoS), attackers contact the victim demanding cryptocurrency payment to stop the attack."
+      ],
+      "redFlags": [
+        "Your website or service suddenly becomes very slow or completely inaccessible without any technical reason.",
+        "You receive threatening emails demanding payment in cryptocurrency to stop an impending or ongoing attack.",
+        "Server monitoring shows a massive, sudden spike in traffic from thousands of different IP addresses.",
+        "Network logs reveal requests flooding in at rates of thousands to millions per second.",
+        "The attack intensifies during critical periods like festive sales, elections, or major product launches.",
+        "Customers start complaining they cannot access your website or app."
+      ],
+      "howToStaySafe": [
+        "Use a reputable DDoS protection service (like Cloudflare, AWS Shield, or Akamai) for your website.",
+        "Configure rate limiting and firewalls to automatically block suspicious traffic patterns.",
+        "Have an Incident Response Plan ready so your team knows exactly what to do when an attack happens.",
+        "Contact your Internet Service Provider (ISP) immediately — they can help filter malicious traffic.",
+        "Never pay ransom to attackers — payment encourages more attacks and rarely stops them.",
+        "Report all DDoS attacks to CERT-In (Indian Computer Emergency Response Team) at cert-in.org.in."
+      ],
+      "ifScammed": [
+        "Contact your hosting provider and ISP immediately to activate DDoS mitigation.",
+        "Report the attack to CERT-In (cert-in.org.in) — they provide free incident response support.",
+        "File a cyber crime complaint at cybercrime.gov.in or call 1930.",
+        "Preserve all server logs, threatening emails, and traffic data as evidence.",
+        "Do NOT pay any ransom demand — it does not guarantee the attack will stop.",
+        "Consider engaging a cyber security firm for forensic analysis and hardening your defences."
+      ],
+      "example": {
+        "channel": "email",
+        "sender": "ddos-threat@protonmail.com",
+        "text": "We have identified your server at [IP]. Pay 5 BTC to bc1qxyz...abc within 24 hours or we will launch a 500 Gbps attack on your infrastructure. This is not a joke."
+      }
+    },
+    {
+      "slug": "crypto-fraud",
+      "title": "Crypto Transaction Fraud",
+      "summary": "Scammers lure victims with promises of guaranteed massive returns on cryptocurrency investments, then steal their money and disappear.",
+      "image": "/images/scams/crypto-fraud-hero.svg",
+      "severity": "high",
+      "images": [
+        {
+          "src": "/images/scams/crypto-fraud-hero.svg",
+          "alt": "Crypto Fraud Hero",
+          "caption": "Scammer promises massive crypto returns to steal your investment and disappear."
+        },
+        {
+          "src": "/images/scams/crypto-fraud-example.svg",
+          "alt": "Crypto Fraud Example",
+          "caption": "A typical crypto fraud conversation: promises, wallet address, then scammer vanishes."
+        },
+        {
+          "src": "/images/scams/crypto-fraud-redflags.svg",
+          "alt": "Crypto Fraud Red Flags",
+          "caption": "Six critical warning signs of a cryptocurrency investment scam."
+        }
+      ],
+      "whatIsIt": "Crypto Transaction Fraud is a type of investment scam where fraudsters impersonate successful crypto traders, celebrities, or investment platforms to convince you to send them cryptocurrency. Because crypto transactions are irreversible and pseudonymous, once you send funds to a scammer's wallet, the money is gone forever. Common forms include Pig Butchering scams (long-term relationship before fraud), Pump & Dump schemes, and fake exchange platforms.",
+      "howItWorks": [
+        "The scammer contacts you on WhatsApp, Telegram, Instagram, or dating apps, often posing as a friend, romantic interest, or investment guru.",
+        "They build trust over days or weeks, showing fake 'proof' of profits — edited screenshots of trading dashboards.",
+        "You are invited to invest a small amount first. The scammer lets you 'withdraw' a small profit to build confidence.",
+        "You are then convinced to invest larger amounts — sometimes your entire savings, gold, or borrowed money.",
+        "When you try to withdraw, there are always more fees — 'tax fees', 'withdrawal fees', 'verification fees' — to extract even more money.",
+        "Eventually the scammer blocks you, the fake platform disappears, and all funds are gone."
+      ],
+      "redFlags": [
+        "Any promise of 'guaranteed returns' on crypto — legitimate investments always carry risk.",
+        "High-pressure tactics using FOMO: 'Only 3 spots left!', 'Offer expires in 1 hour!'",
+        "You are asked to send cryptocurrency to an unknown wallet address first to 'activate' your account.",
+        "The investment platform is not registered with SEBI or any recognized financial regulator.",
+        "The promoter is anonymous — no verifiable real name, company registration, or physical address.",
+        "You can see profits on the platform's dashboard but withdrawals always fail or require more fees."
+      ],
+      "howToStaySafe": [
+        "Never invest in any cryptocurrency scheme that promises guaranteed or unusually high returns.",
+        "Always verify that any investment platform is registered with SEBI (Securities and Exchange Board of India).",
+        "Do not trust investment advice from strangers on social media, dating apps, or messaging platforms.",
+        "Research the platform independently on sites like RBI's list of unauthorized entities.",
+        "Never invest money you cannot afford to lose entirely — treat any unsolicited investment offer with extreme suspicion.",
+        "Talk to a trusted friend, family member, or financial advisor before investing any significant amount."
+      ],
+      "ifScammed": [
+        "Call 1930 immediately to report the financial fraud — act as fast as possible.",
+        "File a detailed complaint at cybercrime.gov.in with all transaction hashes, wallet addresses, and chat logs.",
+        "Contact your bank immediately if you used bank transfers to fund the crypto purchase.",
+        "Report the scam to the crypto exchange you used to buy the cryptocurrency.",
+        "Preserve all evidence: screenshots of conversations, the scammer's profile, wallet addresses, and all transaction records.",
+        "Do NOT pay any additional 'recovery fees' offered by people claiming to get your crypto back — these are secondary scams."
+      ],
+      "example": {
+        "channel": "whatsapp",
+        "sender": "+1-555-0192",
+        "text": "Hi! I'm Sarah, a crypto trader. I've been making 500% returns using a special algorithm. I can teach you! Just start with ₹10,000 in BTC — I'll guide you to 10x it in 30 days. Guaranteed! 🚀"
+      }
     }
   ],
   "hi": [
@@ -148,9 +307,21 @@
       "image": "/images/scams/phishing-hero.png",
       "severity": "high",
       "images": [
-        { "src": "/images/scams/phishing-hero.png", "alt": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤¹à¥€à¤°à¥‹", "caption": "à¤à¤• à¤¸à¥à¤•à¥ˆà¤®à¤° à¤œà¥‹ à¤¡à¥‡à¤Ÿà¤¾ à¤šà¥à¤°à¤¾à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤¨à¤•à¤²à¥€ à¤ˆà¤®à¥‡à¤² à¤­à¥‡à¤œ à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤" },
-        { "src": "/images/scams/phishing-example.png", "alt": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤‰à¤¦à¤¾à¤¹à¤°à¤£", "caption": "à¤à¤• à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤ˆà¤®à¥‡à¤² à¤•à¤¾ à¤‰à¤¦à¤¾à¤¹à¤°à¤£ à¤œà¤¿à¤¸à¤®à¥‡à¤‚ à¤¦à¤¾à¤µà¤¾ à¤•à¤¿à¤¯à¤¾ à¤—à¤¯à¤¾ à¤¹à¥ˆ à¤•à¤¿ à¤†à¤ªà¤•à¤¾ à¤–à¤¾à¤¤à¤¾ à¤¬à¥à¤²à¥‰à¤• à¤¹à¥‹ à¤—à¤¯à¤¾ à¤¹à¥ˆà¥¤" },
-        { "src": "/images/scams/phishing-redflags.png", "alt": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤°à¥‡à¤¡ à¤«à¥à¤²à¥ˆà¤—à¥à¤¸", "caption": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤¾ à¤¸à¤‚à¤•à¥‡à¤¤ à¤¦à¥‡à¤¨à¥‡ à¤µà¤¾à¤²à¥‡ à¤–à¤¤à¤°à¥‡ à¤•à¥‡ à¤¸à¤‚à¤•à¥‡à¤¤à¥¤" }
+        {
+          "src": "/images/scams/phishing-hero.png",
+          "alt": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤¹à¥€à¤°à¥‹",
+          "caption": "à¤à¤• à¤¸à¥à¤•à¥ˆà¤®à¤° à¤œà¥‹ à¤¡à¥‡à¤Ÿà¤¾ à¤šà¥à¤°à¤¾à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤¨à¤•à¤²à¥€ à¤ˆà¤®à¥‡à¤² à¤­à¥‡à¤œ à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤"
+        },
+        {
+          "src": "/images/scams/phishing-example.png",
+          "alt": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤‰à¤¦à¤¾à¤¹à¤°à¤£",
+          "caption": "à¤à¤• à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤ˆà¤®à¥‡à¤² à¤•à¤¾ à¤‰à¤¦à¤¾à¤¹à¤°à¤£ à¤œà¤¿à¤¸à¤®à¥‡à¤‚ à¤¦à¤¾à¤µà¤¾ à¤•à¤¿à¤¯à¤¾ à¤—à¤¯à¤¾ à¤¹à¥ˆ à¤•à¤¿ à¤†à¤ªà¤•à¤¾ à¤–à¤¾à¤¤à¤¾ à¤¬à¥à¤²à¥‰à¤• à¤¹à¥‹ à¤—à¤¯à¤¾ à¤¹à¥ˆà¥¤"
+        },
+        {
+          "src": "/images/scams/phishing-redflags.png",
+          "alt": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤°à¥‡à¤¡ à¤«à¥à¤²à¥ˆà¤—à¥à¤¸",
+          "caption": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤ªà¥à¤°à¤¯à¤¾à¤¸ à¤•à¤¾ à¤¸à¤‚à¤•à¥‡à¤¤ à¤¦à¥‡à¤¨à¥‡ à¤µà¤¾à¤²à¥‡ à¤–à¤¤à¤°à¥‡ à¤•à¥‡ à¤¸à¤‚à¤•à¥‡à¤¤à¥¤"
+        }
       ],
       "whatIsIt": "à¤«à¤¼à¤¿à¤¶à¤¿à¤‚à¤— à¤à¤• à¤¸à¤¾à¤‡à¤¬à¤° à¤¹à¤®à¤²à¤¾ à¤¹à¥ˆ à¤œà¤¹à¤¾à¤ à¤¸à¥à¤•à¥ˆà¤®à¤°à¥à¤¸ à¤ªà¤¾à¤¸à¤µà¤°à¥à¤¡, à¤“à¤Ÿà¥€à¤ªà¥€, à¤¯à¤¾ à¤•à¥à¤°à¥‡à¤¡à¤¿à¤Ÿ à¤•à¤¾à¤°à¥à¤¡ à¤•à¥‡ à¤µà¤¿à¤µà¤°à¤£ à¤œà¥ˆà¤¸à¥€ à¤¸à¤‚à¤µà¥‡à¤¦à¤¨à¤¶à¥€à¤² à¤œà¤¾à¤¨à¤•à¤¾à¤°à¥€ à¤ªà¥à¤°à¤•à¤Ÿ à¤•à¤°à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤†à¤ªà¤•à¥‹ à¤§à¥‹à¤–à¤¾ à¤¦à¥‡à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤•à¤¿à¤¸à¥€ à¤¬à¥ˆà¤‚à¤• à¤¯à¤¾ à¤¸à¤°à¤•à¤¾à¤°à¥€ à¤à¤œà¥‡à¤‚à¤¸à¥€ à¤œà¥ˆà¤¸à¤¾ à¤¦à¤¿à¤–à¤¨à¥‡ à¤•à¤¾ à¤¨à¤¾à¤Ÿà¤• à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤",
       "howItWorks": [
@@ -195,9 +366,21 @@
       "image": "/images/scams/upi-fraud-hero.png",
       "severity": "high",
       "images": [
-        { "src": "/images/scams/upi-fraud-hero.png", "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤¹à¥€à¤°à¥‹", "caption": "à¤à¤• à¤¸à¥à¤•à¥ˆà¤®à¤° à¤œà¥‹ à¤­à¥à¤°à¤¾à¤®à¤• UPI à¤ªà¥‡à¤®à¥‡à¤‚à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤­à¥‡à¤œ à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤" },
-        { "src": "/images/scams/upi-fraud-example.png", "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤‰à¤¦à¤¾à¤¹à¤°à¤£", "caption": "à¤à¤• à¤¦à¥à¤°à¥à¤­à¤¾à¤µà¤¨à¤¾à¤ªà¥‚à¤°à¥à¤£ UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤¨à¥‹à¤Ÿà¤¿à¤«à¤¿à¤•à¥‡à¤¶à¤¨ à¤•à¤¾ à¤‰à¤¦à¤¾à¤¹à¤°à¤£à¥¤" },
-        { "src": "/images/scams/upi-fraud-redflags.png", "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€", "caption": "UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤«à¥à¤°à¥‰à¤¡ à¤•à¥‡ à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€ à¤¸à¤‚à¤•à¥‡à¤¤à¥¤" }
+        {
+          "src": "/images/scams/upi-fraud-hero.png",
+          "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤¹à¥€à¤°à¥‹",
+          "caption": "à¤à¤• à¤¸à¥à¤•à¥ˆà¤®à¤° à¤œà¥‹ à¤­à¥à¤°à¤¾à¤®à¤• UPI à¤ªà¥‡à¤®à¥‡à¤‚à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤­à¥‡à¤œ à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤"
+        },
+        {
+          "src": "/images/scams/upi-fraud-example.png",
+          "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤‰à¤¦à¤¾à¤¹à¤°à¤£",
+          "caption": "à¤à¤• à¤¦à¥à¤°à¥à¤­à¤¾à¤µà¤¨à¤¾à¤ªà¥‚à¤°à¥à¤£ UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤¨à¥‹à¤Ÿà¤¿à¤«à¤¿à¤•à¥‡à¤¶à¤¨ à¤•à¤¾ à¤‰à¤¦à¤¾à¤¹à¤°à¤£à¥¤"
+        },
+        {
+          "src": "/images/scams/upi-fraud-redflags.png",
+          "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€",
+          "caption": "UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤«à¥à¤°à¥‰à¤¡ à¤•à¥‡ à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€ à¤¸à¤‚à¤•à¥‡à¤¤à¥¤"
+        }
       ],
       "whatIsIt": "UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤«à¥à¤°à¥‰à¤¡ à¤à¤• à¤†à¤® à¤˜à¥‹à¤Ÿà¤¾à¤²à¤¾ à¤¹à¥ˆ à¤œà¤¹à¤¾à¤ à¤à¤• à¤œà¤¾à¤²à¤¸à¤¾à¤œà¤¼ à¤–à¤°à¥€à¤¦à¤¾à¤°, à¤…à¤§à¤¿à¤•à¤¾à¤°à¥€ à¤¯à¤¾ à¤¦à¥‹à¤¸à¥à¤¤ à¤¹à¥‹à¤¨à¥‡ à¤•à¤¾ à¤¦à¤¿à¤–à¤¾à¤µà¤¾ à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ, à¤”à¤° à¤†à¤ªà¤•à¥‹ à¤ªà¥ˆà¤¸à¥‡ à¤­à¥‡à¤œà¤¨à¥‡ à¤•à¥‡ à¤¬à¤œà¤¾à¤¯ à¤†à¤ªà¤•à¥‡ UPI à¤à¤ª à¤ªà¤° 'à¤ªà¥‡à¤®à¥‡à¤‚à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ' à¤­à¥‡à¤œà¤¤à¤¾ à¤¹à¥ˆà¥¤ à¤µà¥‡ à¤†à¤ªà¤•à¥‹ à¤…à¤ªà¤¨à¤¾ UPI à¤ªà¤¿à¤¨ à¤¦à¤°à¥à¤œ à¤•à¤°à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤§à¥‹à¤–à¤¾ à¤¦à¥‡à¤¨à¥‡ à¤•à¥€ à¤•à¥‹à¤¶à¤¿à¤¶ à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤",
       "howItWorks": [
@@ -241,9 +424,21 @@
       "image": "/images/scams/fake-job-lottery-hero.svg",
       "severity": "medium",
       "images": [
-        { "src": "/images/scams/fake-job-lottery-hero.svg", "alt": "à¤«à¤°à¥à¤œà¥€ à¤œà¥‰à¤¬ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤¹à¥€à¤°à¥‹", "caption": "à¤à¤• à¤¸à¥à¤•à¥ˆà¤®à¤° à¤œà¥‹ à¤à¥‚à¤ à¥€ à¤¦à¥Œà¤²à¤¤ à¤”à¤° à¤¨à¥Œà¤•à¤°à¥€ à¤•à¤¾ à¤µà¤¾à¤¦à¤¾ à¤•à¤° à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤" },
-        { "src": "/images/scams/fake-job-lottery-example.svg", "alt": "à¤«à¤°à¥à¤œà¥€ à¤œà¥‰à¤¬ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤‰à¤¦à¤¾à¤¹à¤°à¤£", "caption": "à¤à¤• à¤¸à¤‚à¤¦à¥‡à¤¶ à¤œà¥‹ à¤¨à¤•à¤²à¥€ à¤²à¥‰à¤Ÿà¤°à¥€ à¤œà¥€à¤¤à¤¨à¥‡ à¤•à¥€ à¤˜à¥‹à¤·à¤£à¤¾ à¤•à¤° à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤" },
-        { "src": "/images/scams/fake-job-lottery-redflags.svg", "alt": "à¤«à¤°à¥à¤œà¥€ à¤œà¥‰à¤¬ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤°à¥‡à¤¡ à¤«à¥à¤²à¥ˆà¤—à¥à¤¸", "caption": "à¤¨à¥Œà¤•à¤°à¥€ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤˜à¥‹à¤Ÿà¤¾à¤²à¥‹à¤‚ à¤•à¥‡ à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€ à¤¸à¤‚à¤•à¥‡à¤¤à¥¤" }
+        {
+          "src": "/images/scams/fake-job-lottery-hero.svg",
+          "alt": "à¤«à¤°à¥à¤œà¥€ à¤œà¥‰à¤¬ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤¹à¥€à¤°à¥‹",
+          "caption": "à¤à¤• à¤¸à¥à¤•à¥ˆà¤®à¤° à¤œà¥‹ à¤à¥‚à¤ à¥€ à¤¦à¥Œà¤²à¤¤ à¤”à¤° à¤¨à¥Œà¤•à¤°à¥€ à¤•à¤¾ à¤µà¤¾à¤¦à¤¾ à¤•à¤° à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤"
+        },
+        {
+          "src": "/images/scams/fake-job-lottery-example.svg",
+          "alt": "à¤«à¤°à¥à¤œà¥€ à¤œà¥‰à¤¬ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤‰à¤¦à¤¾à¤¹à¤°à¤£",
+          "caption": "à¤à¤• à¤¸à¤‚à¤¦à¥‡à¤¶ à¤œà¥‹ à¤¨à¤•à¤²à¥€ à¤²à¥‰à¤Ÿà¤°à¥€ à¤œà¥€à¤¤à¤¨à¥‡ à¤•à¥€ à¤˜à¥‹à¤·à¤£à¤¾ à¤•à¤° à¤°à¤¹à¤¾ à¤¹à¥ˆà¥¤"
+        },
+        {
+          "src": "/images/scams/fake-job-lottery-redflags.svg",
+          "alt": "à¤«à¤°à¥à¤œà¥€ à¤œà¥‰à¤¬ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤°à¥‡à¤¡ à¤«à¥à¤²à¥ˆà¤—à¥à¤¸",
+          "caption": "à¤¨à¥Œà¤•à¤°à¥€ à¤”à¤° à¤²à¥‰à¤Ÿà¤°à¥€ à¤˜à¥‹à¤Ÿà¤¾à¤²à¥‹à¤‚ à¤•à¥‡ à¤šà¥‡à¤¤à¤¾à¤µà¤¨à¥€ à¤¸à¤‚à¤•à¥‡à¤¤à¥¤"
+        }
       ],
       "whatIsIt": "à¤‡à¤¨ à¤˜à¥‹à¤Ÿà¤¾à¤²à¥‹à¤‚ à¤®à¥‡à¤‚, à¤§à¥‹à¤–à¥‡à¤¬à¤¾à¤œà¤¼ à¤†à¤ªà¤•à¥‹ à¤µà¤¿à¤¦à¥‡à¤¶ à¤®à¥‡à¤‚ à¤…à¤§à¤¿à¤• à¤µà¥‡à¤¤à¤¨ à¤µà¤¾à¤²à¥€ à¤¨à¥Œà¤•à¤°à¥€, à¤†à¤¸à¤¾à¤¨ à¤•à¤¾à¤® à¤†à¤§à¤¾à¤°à¤¿à¤¤ à¤—à¤¿à¤— à¤•à¤¾ à¤µà¤¾à¤¦à¤¾ à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚, à¤¯à¤¾ à¤¦à¤¾à¤µà¤¾ à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚ à¤•à¤¿ à¤†à¤ªà¤¨à¥‡ à¤¬à¤¡à¤¼à¥€ à¤²à¥‰à¤Ÿà¤°à¥€ à¤¯à¤¾ à¤‡à¤¨à¤¾à¤® à¤œà¥€à¤¤à¤¾ à¤¹à¥ˆà¥¤ à¤¹à¤¾à¤²à¤¾à¤à¤•à¤¿, à¤ªà¥ˆà¤¸à¥‡ à¤¯à¤¾ à¤¨à¥Œà¤•à¤°à¥€ à¤ªà¤¾à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤, à¤µà¥‡ à¤†à¤ªà¤¸à¥‡ à¤ªà¤¹à¤²à¥‡ à¤¹à¥€ à¤µà¤¿à¤­à¤¿à¤¨à¥à¤¨ 'à¤¶à¥à¤²à¥à¤•' à¤•à¤¾ à¤­à¥à¤—à¤¤à¤¾à¤¨ à¤•à¤°à¤¨à¥‡ à¤•à¥‡ à¤²à¤¿à¤ à¤•à¤¹à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤",
       "howItWorks": [
@@ -279,6 +474,127 @@
         "sender": "TF-REWARD",
         "text": "à¤¬à¤§à¤¾à¤ˆ à¤¹à¥‹! à¤†à¤ªà¤•à¥‡ à¤®à¥‹à¤¬à¤¾à¤‡à¤² à¤¨à¤‚à¤¬à¤° à¤¨à¥‡ à¤…à¤–à¤¿à¤² à¤­à¤¾à¤°à¤¤à¥€à¤¯ à¤®à¥‡à¤—à¤¾ à¤¡à¥à¤°à¤¾ à¤®à¥‡à¤‚ 25,00,000 à¤°à¥à¤ªà¤¯à¥‡ à¤œà¥€à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤ 5000 à¤ªà¥à¤°à¥‹à¤¸à¥‡à¤¸à¤¿à¤‚à¤— à¤«à¥€à¤¸ hxxp://fake-lottery-claim[.]example à¤ªà¤° à¤¦à¥‡à¤‚à¥¤"
       }
+    },
+    {
+      "slug": "dos-ddos",
+      "title": "DoS और DDoS हमला",
+      "summary": "हमलावर किसी वेबसाइट या सर्वर को नकली ट्रैफिक से ओवरलोड करके क्रैश कर देते हैं, जिससे असली उपयोगकर्ता उस तक पहुंच नहीं सकते।",
+      "image": "/images/scams/dos-ddos-hero.svg",
+      "severity": "high",
+      "images": [
+        {
+          "src": "/images/scams/dos-ddos-hero.svg",
+          "alt": "DoS और DDoS हमला हीरो",
+          "caption": "हजारों बॉट्स एक साथ सर्वर को फ्लड कर उसे ऑफलाइन कर देते हैं।"
+        },
+        {
+          "src": "/images/scams/dos-ddos-example.svg",
+          "alt": "DoS और DDoS हमले का उदाहरण",
+          "caption": "DDoS हमले के दौरान सर्वर लॉग — अनुरोध सेकंडों में 25/सेकंड से 48,000/सेकंड तक बढ़ जाते हैं।"
+        },
+        {
+          "src": "/images/scams/dos-ddos-redflags.svg",
+          "alt": "DoS और DDoS चेतावनी संकेत",
+          "caption": "चेतावनी के संकेत जो बताते हैं कि आप या आपका व्यवसाय DoS या DDoS हमले के अधीन हो सकता है।"
+        }
+      ],
+      "whatIsIt": "DoS (Denial of Service) हमले में एक हमलावर किसी सर्वर को इतने अनुरोधों से भर देता है कि वह क्रैश हो जाता है। DDoS (Distributed Denial of Service) हमला इससे भी शक्तिशाली होता है — हमलावर दुनिया भर में हजारों संक्रमित कंप्यूटरों ('बॉटनेट') का उपयोग करके एक साथ लक्ष्य को फ्लड करता है।",
+      "howItWorks": [
+        "हमलावर पहले एक 'बॉटनेट' बनाता है — मैलवेयर से संक्रमित हजारों उपकरणों का नेटवर्क।",
+        "सभी बॉट्स को एक साथ लक्ष्य सर्वर पर लाखों अनुरोध भेजने का आदेश दिया जाता है।",
+        "सर्वर ओवरलोड हो जाता है और वैध अनुरोधों को प्रोसेस नहीं कर पाता।",
+        "वेबसाइट या सेवा असली उपयोगकर्ताओं के लिए अनुपलब्ध हो जाती है।",
+        "RDDoS में, हमलावर हमला रोकने के बदले क्रिप्टोकरेंसी में फिरौती मांगते हैं।"
+      ],
+      "redFlags": [
+        "आपकी वेबसाइट अचानक बहुत धीमी हो जाती है या पूरी तरह अनुपलब्ध हो जाती है।",
+        "आपको क्रिप्टोकरेंसी में भुगतान की मांग करने वाले धमकी भरे ईमेल मिलते हैं।",
+        "सर्वर मॉनिटरिंग में हजारों IP पतों से ट्रैफिक में भारी वृद्धि दिखती है।",
+        "नेटवर्क लॉग में प्रति सेकंड हजारों से लाखों अनुरोध दिखाई देते हैं।",
+        "त्योहारी बिक्री या प्रमुख उत्पाद लॉन्च के दौरान हमला तेज होता है।",
+        "ग्राहक शिकायत करते हैं कि वे आपकी वेबसाइट या ऐप तक पहुंच नहीं पा रहे।"
+      ],
+      "howToStaySafe": [
+        "अपनी वेबसाइट के लिए एक प्रतिष्ठित DDoS सुरक्षा सेवा (जैसे Cloudflare, AWS Shield) का उपयोग करें।",
+        "संदिग्ध ट्रैफिक पैटर्न को स्वचालित रूप से ब्लॉक करने के लिए रेट लिमिटिंग और फायरवॉल कॉन्फ़िगर करें।",
+        "हमले की स्थिति में एक इंसीडेंट रिस्पांस प्लान तैयार रखें।",
+        "अपने ISP से तुरंत संपर्क करें — वे दुर्भावनापूर्ण ट्रैफिक को फ़िल्टर करने में मदद कर सकते हैं।",
+        "कभी भी फिरौती का भुगतान न करें — यह और अधिक हमलों को प्रोत्साहित करता है।",
+        "सभी DDoS हमलों की रिपोर्ट CERT-In (cert-in.org.in) पर करें।"
+      ],
+      "ifScammed": [
+        "DDoS शमन सक्रिय करने के लिए तुरंत अपने होस्टिंग प्रदाता और ISP से संपर्क करें।",
+        "CERT-In (cert-in.org.in) पर हमले की रिपोर्ट करें।",
+        "cybercrime.gov.in पर साइबर अपराध की शिकायत दर्ज करें या 1930 पर कॉल करें।",
+        "सभी सर्वर लॉग, धमकी भरे ईमेल और ट्रैफिक डेटा को साक्ष्य के रूप में सुरक्षित रखें।",
+        "किसी भी फिरौती की मांग का भुगतान न करें।",
+        "फोरेंसिक विश्लेषण के लिए एक साइबर सुरक्षा फर्म को संलग्न करने पर विचार करें।"
+      ],
+      "example": {
+        "channel": "email",
+        "sender": "ddos-threat@protonmail.com",
+        "text": "हमने आपका सर्वर [IP] पर पहचाना है। 24 घंटों के भीतर 5 BTC का भुगतान करें अन्यथा हम आपके इन्फ्रास्ट्रक्चर पर 500 Gbps का हमला शुरू करेंगे।"
+      }
+    },
+    {
+      "slug": "crypto-fraud",
+      "title": "क्रिप्टो ट्रांजेक्शन फ्रॉड",
+      "summary": "स्कैमर्स क्रिप्टोकरेंसी निवेश पर भारी रिटर्न का वादा करके पीड़ितों को लुभाते हैं, फिर उनका पैसा चुराकर गायब हो जाते हैं।",
+      "image": "/images/scams/crypto-fraud-hero.svg",
+      "severity": "high",
+      "images": [
+        {
+          "src": "/images/scams/crypto-fraud-hero.svg",
+          "alt": "क्रिप्टो फ्रॉड हीरो",
+          "caption": "स्कैमर भारी क्रिप्टो रिटर्न का वादा करके आपका निवेश चुरा लेता है।"
+        },
+        {
+          "src": "/images/scams/crypto-fraud-example.svg",
+          "alt": "क्रिप्टो फ्रॉड उदाहरण",
+          "caption": "एक विशिष्ट क्रिप्टो फ्रॉड वार्तालाप: वादे, वॉलेट एड्रेस, फिर स्कैमर गायब।"
+        },
+        {
+          "src": "/images/scams/crypto-fraud-redflags.svg",
+          "alt": "क्रिप्टो फ्रॉड चेतावनी संकेत",
+          "caption": "क्रिप्टोकरेंसी निवेश घोटाले के छह महत्वपूर्ण चेतावनी संकेत।"
+        }
+      ],
+      "whatIsIt": "क्रिप्टो ट्रांजेक्शन फ्रॉड एक निवेश घोटाला है जहां धोखेबाज सफल क्रिप्टो ट्रेडर्स या निवेश प्लेटफॉर्म के रूप में आपको क्रिप्टोकरेंसी भेजने के लिए मनाते हैं। क्योंकि क्रिप्टो लेनदेन अपरिवर्तनीय होते हैं, एक बार भेजे गए पैसे कभी वापस नहीं आते।",
+      "howItWorks": [
+        "स्कैमर WhatsApp, Telegram, Instagram, या डेटिंग ऐप्स पर दोस्त, रोमांटिक साथी, या निवेश गुरु के रूप में संपर्क करता है।",
+        "वे दिनों या हफ्तों में विश्वास बनाते हैं, मुनाफे के नकली 'प्रमाण' दिखाते हैं।",
+        "आपको पहले थोड़ी राशि निवेश करने के लिए कहा जाता है।",
+        "फिर आपको बड़ी राशि — कभी-कभी अपनी पूरी बचत — निवेश करने के लिए राजी किया जाता है।",
+        "जब आप निकासी करने की कोशिश करते हैं, तो हमेशा और शुल्क होते हैं।",
+        "अंततः स्कैमर आपको ब्लॉक कर देता है और सभी फंड चले जाते हैं।"
+      ],
+      "redFlags": [
+        "क्रिप्टो पर 'गारंटीड रिटर्न' का कोई भी वादा — वैध निवेश में हमेशा जोखिम होता है।",
+        "FOMO का उपयोग करने वाली रणनीतियाँ: 'केवल 3 स्थान बचे हैं!'",
+        "आपसे पहले क्रिप्टोकरेंसी एक अज्ञात वॉलेट एड्रेस पर भेजने के लिए कहा जाता है।",
+        "निवेश प्लेटफॉर्म SEBI के साथ पंजीकृत नहीं है।",
+        "प्रमोटर गुमनाम है — कोई सत्यापन योग्य वास्तविक नाम या कंपनी पंजीकरण नहीं।",
+        "आप प्लेटफॉर्म पर मुनाफा देख सकते हैं लेकिन निकासी हमेशा विफल होती है।"
+      ],
+      "howToStaySafe": [
+        "किसी भी क्रिप्टोकरेंसी योजना में कभी निवेश न करें जो गारंटीड रिटर्न का वादा करती हो।",
+        "हमेशा सत्यापित करें कि कोई भी निवेश प्लेटफॉर्म SEBI के साथ पंजीकृत है।",
+        "सोशल मीडिया या मैसेजिंग प्लेटफॉर्म पर अजनबियों से निवेश सलाह पर भरोसा न करें।",
+        "किसी भी महत्वपूर्ण राशि का निवेश करने से पहले किसी विश्वसनीय वित्तीय सलाहकार से बात करें।",
+        "ऐसे किसी भी प्रस्ताव पर अत्यंत संदेह के साथ व्यवहार करें जो बिना मांगे आता हो।"
+      ],
+      "ifScammed": [
+        "वित्तीय धोखाधड़ी की रिपोर्ट करने के लिए तुरंत 1930 पर कॉल करें।",
+        "cybercrime.gov.in पर सभी लेनदेन हैश, वॉलेट एड्रेस और चैट लॉग के साथ शिकायत दर्ज करें।",
+        "अगर आपने बैंक ट्रांसफर का उपयोग किया तो तुरंत अपने बैंक से संपर्क करें।",
+        "सभी साक्ष्य सुरक्षित रखें: बातचीत के स्क्रीनशॉट, वॉलेट एड्रेस, और लेनदेन रिकॉर्ड।",
+        "किसी भी 'रिकवरी शुल्क' का भुगतान न करें — ये द्वितीयक घोटाले हैं।"
+      ],
+      "example": {
+        "channel": "whatsapp",
+        "sender": "+1-555-0192",
+        "text": "नमस्ते! मैं Sarah हूं, एक क्रिप्टो ट्रेडर। मैं एक विशेष एल्गोरिदम से 500% रिटर्न कमा रही हूं। आप भी ₹10,000 BTC में निवेश करें — 30 दिनों में 10x करने में गाइड करूंगी। गारंटीड! 🚀"
+      }
     }
   ],
   "mr": [
@@ -289,9 +605,21 @@
       "image": "/images/scams/phishing-hero.png",
       "severity": "high",
       "images": [
-        { "src": "/images/scams/phishing-hero.png", "alt": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤¹à¤¿à¤°à¥‹", "caption": "à¤¡à¥‡à¤Ÿà¤¾ à¤šà¥‹à¤°à¤£à¥à¤¯à¤¾à¤¸à¤¾à¤ à¥€ à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤ˆà¤®à¥‡à¤² à¤ªà¤¾à¤ à¤µà¤£à¤¾à¤°à¤¾ à¤¸à¥à¤•à¥…à¤®à¤°." },
-        { "src": "/images/scams/phishing-example.png", "alt": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤‰à¤¦à¤¾à¤¹à¤°à¤£", "caption": "à¤¤à¥à¤®à¤šà¥‡ à¤–à¤¾à¤¤à¥‡ à¤¬à¥à¤²à¥‰à¤• à¤à¤¾à¤²à¥à¤¯à¤¾à¤šà¤¾ à¤¦à¤¾à¤µà¤¾ à¤•à¤°à¤£à¤¾à¤°à¤¾ à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤ˆà¤®à¥‡à¤²." },
-        { "src": "/images/scams/phishing-redflags.png", "alt": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤°à¥…à¤¡ à¤«à¥à¤²à¥…à¤—à¥à¤¸", "caption": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤ªà¥à¤°à¤¯à¤¤à¥à¤¨à¤¾à¤šà¥‡ à¤§à¥‹à¤•à¥à¤¯à¤¾à¤šà¥‡ à¤¸à¤‚à¤•à¥‡à¤¤." }
+        {
+          "src": "/images/scams/phishing-hero.png",
+          "alt": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤¹à¤¿à¤°à¥‹",
+          "caption": "à¤¡à¥‡à¤Ÿà¤¾ à¤šà¥‹à¤°à¤£à¥à¤¯à¤¾à¤¸à¤¾à¤ à¥€ à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤ˆà¤®à¥‡à¤² à¤ªà¤¾à¤ à¤µà¤£à¤¾à¤°à¤¾ à¤¸à¥à¤•à¥…à¤®à¤°."
+        },
+        {
+          "src": "/images/scams/phishing-example.png",
+          "alt": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤‰à¤¦à¤¾à¤¹à¤°à¤£",
+          "caption": "à¤¤à¥à¤®à¤šà¥‡ à¤–à¤¾à¤¤à¥‡ à¤¬à¥à¤²à¥‰à¤• à¤à¤¾à¤²à¥à¤¯à¤¾à¤šà¤¾ à¤¦à¤¾à¤µà¤¾ à¤•à¤°à¤£à¤¾à¤°à¤¾ à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤ˆà¤®à¥‡à¤²."
+        },
+        {
+          "src": "/images/scams/phishing-redflags.png",
+          "alt": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤°à¥…à¤¡ à¤«à¥à¤²à¥…à¤—à¥à¤¸",
+          "caption": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤ªà¥à¤°à¤¯à¤¤à¥à¤¨à¤¾à¤šà¥‡ à¤§à¥‹à¤•à¥à¤¯à¤¾à¤šà¥‡ à¤¸à¤‚à¤•à¥‡à¤¤."
+        }
       ],
       "whatIsIt": "à¤«à¤¿à¤¶à¤¿à¤‚à¤— à¤¹à¤¾ à¤à¤• à¤¸à¤¾à¤¯à¤¬à¤° à¤¹à¤²à¥à¤²à¤¾ à¤†à¤¹à¥‡ à¤œà¤¿à¤¥à¥‡ à¤¸à¥à¤•à¥…à¤®à¤°à¥à¤¸ à¤ªà¤¾à¤¸à¤µà¤°à¥à¤¡, à¤“à¤Ÿà¥€à¤ªà¥€ à¤•à¤¿à¤‚à¤µà¤¾ à¤•à¥à¤°à¥‡à¤¡à¤¿à¤Ÿ à¤•à¤¾à¤°à¥à¤¡à¤šà¤¾ à¤¤à¤ªà¤¶à¥€à¤² à¤¯à¤¾à¤‚à¤¸à¤¾à¤°à¤–à¥€ à¤¸à¤‚à¤µà¥‡à¤¦à¤¨à¤¶à¥€à¤² à¤®à¤¾à¤¹à¤¿à¤¤à¥€ à¤‰à¤˜à¤¡ à¤•à¤°à¤£à¥à¤¯à¤¾à¤¸à¤¾à¤ à¥€ à¤¬à¤à¤•à¥‡à¤šà¥‡ à¤•à¤¿à¤‚à¤µà¤¾ à¤¸à¤°à¤•à¤¾à¤°à¥€ à¤¸à¤‚à¤¸à¥à¤¥à¥‡à¤šà¥‡ à¤¨à¤¾à¤Ÿà¤• à¤•à¤°à¤¤à¤¾à¤¤.",
       "howItWorks": [
@@ -336,9 +664,21 @@
       "image": "/images/scams/upi-fraud-hero.png",
       "severity": "high",
       "images": [
-        { "src": "/images/scams/upi-fraud-hero.png", "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤¹à¤¿à¤°à¥‹", "caption": "à¤¦à¤¿à¤¶à¤¾à¤­à¥‚à¤² à¤•à¤°à¤£à¤¾à¤°à¥€ UPI à¤ªà¥‡à¤®à¥‡à¤‚à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤ªà¤¾à¤ à¤µà¤£à¤¾à¤°à¤¾ à¤¸à¥à¤•à¥…à¤®à¤°." },
-        { "src": "/images/scams/upi-fraud-example.png", "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤‰à¤¦à¤¾à¤¹à¤°à¤£", "caption": "à¤§à¥‹à¤•à¤¾à¤¦à¤¾à¤¯à¤• UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤¸à¥‚à¤šà¤¨à¥‡à¤šà¥‡ à¤‰à¤¦à¤¾à¤¹à¤°à¤£." },
-        { "src": "/images/scams/upi-fraud-redflags.png", "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤°à¥…à¤¡ à¤«à¥à¤²à¥…à¤—à¥à¤¸", "caption": "UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤«à¥à¤°à¥‰à¤¡à¤šà¥‡ à¤§à¥‹à¤•à¥à¤¯à¤¾à¤šà¥‡ à¤¸à¤‚à¤•à¥‡à¤¤." }
+        {
+          "src": "/images/scams/upi-fraud-hero.png",
+          "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤¹à¤¿à¤°à¥‹",
+          "caption": "à¤¦à¤¿à¤¶à¤¾à¤­à¥‚à¤² à¤•à¤°à¤£à¤¾à¤°à¥€ UPI à¤ªà¥‡à¤®à¥‡à¤‚à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤ªà¤¾à¤ à¤µà¤£à¤¾à¤°à¤¾ à¤¸à¥à¤•à¥…à¤®à¤°."
+        },
+        {
+          "src": "/images/scams/upi-fraud-example.png",
+          "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤‰à¤¦à¤¾à¤¹à¤°à¤£",
+          "caption": "à¤§à¥‹à¤•à¤¾à¤¦à¤¾à¤¯à¤• UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤¸à¥‚à¤šà¤¨à¥‡à¤šà¥‡ à¤‰à¤¦à¤¾à¤¹à¤°à¤£."
+        },
+        {
+          "src": "/images/scams/upi-fraud-redflags.png",
+          "alt": "UPI à¤«à¥à¤°à¥‰à¤¡ à¤°à¥…à¤¡ à¤«à¥à¤²à¥…à¤—à¥à¤¸",
+          "caption": "UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤«à¥à¤°à¥‰à¤¡à¤šà¥‡ à¤§à¥‹à¤•à¥à¤¯à¤¾à¤šà¥‡ à¤¸à¤‚à¤•à¥‡à¤¤."
+        }
       ],
       "whatIsIt": "UPI à¤•à¤²à¥‡à¤•à¥à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ à¤«à¥à¤°à¥‰à¤¡ à¤¹à¤¾ à¤à¤• à¤¸à¤¾à¤®à¤¾à¤¨à¥à¤¯ à¤˜à¥‹à¤Ÿà¤¾à¤³à¤¾ à¤†à¤¹à¥‡ à¤œà¤¿à¤¥à¥‡ à¤à¤• à¤«à¤¸à¤µà¤£à¥‚à¤• à¤•à¤°à¤£à¤¾à¤°à¤¾ à¤–à¤°à¥‡à¤¦à¥€à¤¦à¤¾à¤°, à¤…à¤§à¤¿à¤•à¤¾à¤°à¥€ à¤•à¤¿à¤‚à¤µà¤¾ à¤®à¤¿à¤¤à¥à¤° à¤…à¤¸à¤²à¥à¤¯à¤¾à¤šà¥‡ à¤¨à¤¾à¤Ÿà¤• à¤•à¤°à¤¤à¥‹ à¤†à¤£à¤¿ à¤¤à¥à¤®à¥à¤¹à¤¾à¤²à¤¾ à¤ªà¥ˆà¤¸à¥‡ à¤ªà¤¾à¤ à¤µà¤£à¥à¤¯à¤¾à¤à¤µà¤œà¥€ à¤¤à¥à¤®à¤šà¥à¤¯à¤¾ UPI à¥²à¤ªà¤µà¤° 'à¤ªà¥‡à¤®à¥‡à¤‚à¤Ÿ à¤°à¤¿à¤•à¥à¤µà¥‡à¤¸à¥à¤Ÿ' à¤ªà¤¾à¤ à¤µà¤¤à¥‹. à¤¤à¥‡ à¤¤à¥à¤®à¤šà¤¾ UPI à¤ªà¤¿à¤¨ à¤à¤£à¥à¤Ÿà¤° à¤•à¤°à¤£à¥à¤¯à¤¾à¤¸à¤¾à¤ à¥€ à¤¤à¥à¤®à¥à¤¹à¤¾à¤²à¤¾ à¤«à¤¸à¤µà¤£à¥à¤¯à¤¾à¤šà¤¾ à¤ªà¥à¤°à¤¯à¤¤à¥à¤¨ à¤•à¤°à¤¤à¤¾à¤¤.",
       "howItWorks": [
@@ -382,9 +722,21 @@
       "image": "/images/scams/fake-job-lottery-hero.svg",
       "severity": "medium",
       "images": [
-        { "src": "/images/scams/fake-job-lottery-hero.svg", "alt": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤œà¥‰à¤¬ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤¹à¤¿à¤°à¥‹", "caption": "à¤–à¥‹à¤Ÿà¥à¤¯à¤¾ à¤¸à¤‚à¤ªà¤¤à¥à¤¤à¥€ à¤†à¤£à¤¿ à¤¨à¥‹à¤•à¤°à¥€à¤šà¥‡ à¤†à¤¶à¥à¤µà¤¾à¤¸à¤¨ à¤¦à¥‡à¤£à¤¾à¤°à¤¾ à¤¸à¥à¤•à¥…à¤®à¤°." },
-        { "src": "/images/scams/fake-job-lottery-example.svg", "alt": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤œà¥‰à¤¬ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤‰à¤¦à¤¾à¤¹à¤°à¤£", "caption": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤œà¤¿à¤‚à¤•à¤£à¥à¤¯à¤¾à¤šà¥€ à¤˜à¥‹à¤·à¤£à¤¾ à¤•à¤°à¤£à¤¾à¤°à¤¾ à¤¸à¤‚à¤¦à¥‡à¤¶." },
-        { "src": "/images/scams/fake-job-lottery-redflags.svg", "alt": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤œà¥‰à¤¬ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤°à¥…à¤¡ à¤«à¥à¤²à¥…à¤—à¥à¤¸", "caption": "à¤¨à¥‹à¤•à¤°à¥€ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤˜à¥‹à¤Ÿà¤¾à¤³à¥à¤¯à¤¾à¤‚à¤šà¥‡ à¤§à¥‹à¤•à¥à¤¯à¤¾à¤šà¥‡ à¤¸à¤‚à¤•à¥‡à¤¤." }
+        {
+          "src": "/images/scams/fake-job-lottery-hero.svg",
+          "alt": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤œà¥‰à¤¬ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤¹à¤¿à¤°à¥‹",
+          "caption": "à¤–à¥‹à¤Ÿà¥à¤¯à¤¾ à¤¸à¤‚à¤ªà¤¤à¥à¤¤à¥€ à¤†à¤£à¤¿ à¤¨à¥‹à¤•à¤°à¥€à¤šà¥‡ à¤†à¤¶à¥à¤µà¤¾à¤¸à¤¨ à¤¦à¥‡à¤£à¤¾à¤°à¤¾ à¤¸à¥à¤•à¥…à¤®à¤°."
+        },
+        {
+          "src": "/images/scams/fake-job-lottery-example.svg",
+          "alt": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤œà¥‰à¤¬ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤‰à¤¦à¤¾à¤¹à¤°à¤£",
+          "caption": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤œà¤¿à¤‚à¤•à¤£à¥à¤¯à¤¾à¤šà¥€ à¤˜à¥‹à¤·à¤£à¤¾ à¤•à¤°à¤£à¤¾à¤°à¤¾ à¤¸à¤‚à¤¦à¥‡à¤¶."
+        },
+        {
+          "src": "/images/scams/fake-job-lottery-redflags.svg",
+          "alt": "à¤¬à¤¨à¤¾à¤µà¤Ÿ à¤œà¥‰à¤¬ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤°à¥…à¤¡ à¤«à¥à¤²à¥…à¤—à¥à¤¸",
+          "caption": "à¤¨à¥‹à¤•à¤°à¥€ à¤†à¤£à¤¿ à¤²à¥‰à¤Ÿà¤°à¥€ à¤˜à¥‹à¤Ÿà¤¾à¤³à¥à¤¯à¤¾à¤‚à¤šà¥‡ à¤§à¥‹à¤•à¥à¤¯à¤¾à¤šà¥‡ à¤¸à¤‚à¤•à¥‡à¤¤."
+        }
       ],
       "whatIsIt": "à¤¯à¤¾ à¤˜à¥‹à¤Ÿà¤¾à¤³à¥à¤¯à¤¾à¤‚à¤®à¤§à¥à¤¯à¥‡, à¤«à¤¸à¤µà¤£à¥‚à¤• à¤•à¤°à¤£à¤¾à¤°à¥‡ à¤¤à¥à¤®à¥à¤¹à¤¾à¤²à¤¾ à¤ªà¤°à¤¦à¥‡à¤¶à¤¾à¤¤ à¤‰à¤šà¥à¤š à¤ªà¤—à¤¾à¤°à¤¾à¤šà¥€ à¤¨à¥‹à¤•à¤°à¥€, à¤¸à¥‹à¤ªà¥‡ à¤•à¤¾à¤® à¤†à¤§à¤¾à¤°à¤¿à¤¤ à¤—à¤¿à¤— à¤¦à¥‡à¤£à¥à¤¯à¤¾à¤šà¥‡ à¤†à¤¶à¥à¤µà¤¾à¤¸à¤¨ à¤¦à¥‡à¤¤à¤¾à¤¤ à¤•à¤¿à¤‚à¤µà¤¾ à¤¤à¥à¤®à¥à¤¹à¥€ à¤®à¥‹à¤ à¥€ à¤²à¥‰à¤Ÿà¤°à¥€ à¤…à¤¥à¤µà¤¾ à¤¬à¤•à¥à¤·à¥€à¤¸ à¤œà¤¿à¤‚à¤•à¤²à¥à¤¯à¤¾à¤šà¤¾ à¤¦à¤¾à¤µà¤¾ à¤•à¤°à¤¤à¤¾à¤¤. à¤¤à¤¥à¤¾à¤ªà¤¿, à¤ªà¥ˆà¤¸à¥‡ à¤•à¤¿à¤‚à¤µà¤¾ à¤¨à¥‹à¤•à¤°à¥€ à¤®à¤¿à¤³à¤µà¤£à¥à¤¯à¤¾à¤¸à¤¾à¤ à¥€, à¤¤à¥‡ à¤¤à¥à¤®à¥à¤¹à¤¾à¤²à¤¾ à¤†à¤—à¤¾à¤Š à¤µà¤¿à¤µà¤¿à¤§ 'à¤¶à¥à¤²à¥à¤•' à¤­à¤°à¤£à¥à¤¯à¤¾à¤¸ à¤¸à¤¾à¤‚à¤—à¤¤à¤¾à¤¤.",
       "howItWorks": [
@@ -420,7 +772,127 @@
         "sender": "TF-REWARD",
         "text": "à¤…à¤­à¤¿à¤¨à¤‚à¤¦à¤¨! à¤¤à¥à¤®à¤šà¥à¤¯à¤¾ à¤®à¥‹à¤¬à¤¾à¤ˆà¤² à¤¨à¤‚à¤¬à¤°à¤¨à¥‡ à¤‘à¤² à¤‡à¤‚à¤¡à¤¿à¤¯à¤¾ à¤®à¥‡à¤—à¤¾ à¤¡à¥à¤°à¥‰à¤®à¤§à¥à¤¯à¥‡ à¥¨à¥«,à¥¦à¥¦,à¥¦à¥¦à¥¦ à¤°à¥à¤ªà¤¯à¥‡ à¤œà¤¿à¤‚à¤•à¤²à¥‡ à¤†à¤¹à¥‡à¤¤. à¥«à¥¦à¥¦à¥¦ à¤ªà¥à¤°à¥‹à¤¸à¥‡à¤¸à¤¿à¤‚à¤— à¤«à¥€ hxxp://fake-lottery-claim[.]example à¤µà¤° à¤­à¤°à¤¾."
       }
+    },
+    {
+      "slug": "dos-ddos",
+      "title": "DoS आणि DDoS हल्ला",
+      "summary": "हल्लेखोर एखाद्या वेबसाइटला किंवा सर्व्हरला बनावट ट्रॅफिकने ओव्हरलोड करून क्रॅश करतात, त्यामुळे खरे वापरकर्ते त्यात प्रवेश करू शकत नाहीत.",
+      "image": "/images/scams/dos-ddos-hero.svg",
+      "severity": "high",
+      "images": [
+        {
+          "src": "/images/scams/dos-ddos-hero.svg",
+          "alt": "DoS आणि DDoS हल्ला हिरो",
+          "caption": "हजारो बॉट्स एकाच वेळी सर्व्हरला फ्लड करून तो ऑफलाइन करतात."
+        },
+        {
+          "src": "/images/scams/dos-ddos-example.svg",
+          "alt": "DoS आणि DDoS हल्ल्याचे उदाहरण",
+          "caption": "DDoS हल्ल्यादरम्यान सर्व्हर लॉग — विनंत्या सेकंदात 25/सेकंद वरून 48,000/सेकंद पर्यंत वाढतात."
+        },
+        {
+          "src": "/images/scams/dos-ddos-redflags.svg",
+          "alt": "DoS आणि DDoS लाल चिन्हे",
+          "caption": "चेतावणी चिन्हे जी दर्शवतात की तुम्ही किंवा तुमचा व्यवसाय DoS किंवा DDoS हल्ल्याचा बळी असू शकतो."
+        }
+      ],
+      "whatIsIt": "DoS (Denial of Service) हल्ल्यात एक हल्लेखोर सर्व्हरला इतक्या विनंत्यांनी भरतो की तो क्रॅश होतो. DDoS हल्ला यापेक्षाही शक्तिशाली असतो — हल्लेखोर जगभरात हजारो संक्रमित संगणकांचा ('बॉटनेट') वापर करून एकाच वेळी लक्ष्यावर हल्ला करतो.",
+      "howItWorks": [
+        "हल्लेखोर प्रथम एक 'बॉटनेट' तयार करतो — मालवेअरने संक्रमित हजारो उपकरणांचे नेटवर्क.",
+        "सर्व बॉट्सना एकाच वेळी लक्ष्य सर्व्हरवर लाखो विनंत्या पाठवण्याचा आदेश दिला जातो.",
+        "सर्व्हर ओव्हरलोड होतो आणि वैध विनंत्या प्रक्रिया करू शकत नाही.",
+        "वेबसाइट किंवा सेवा खऱ्या वापरकर्त्यांसाठी अनुपलब्ध होते.",
+        "RDDoS मध्ये, हल्लेखोर हल्ला थांबवण्यासाठी क्रिप्टोकरन्सीमध्ये खंडणी मागतात."
+      ],
+      "redFlags": [
+        "तुमची वेबसाइट अचानक खूप मंद होते किंवा पूर्णपणे अनुपलब्ध होते.",
+        "तुम्हाला क्रिप्टोकरन्सीमध्ये पेमेंटची मागणी करणारे धमकीचे ईमेल येतात.",
+        "सर्व्हर मॉनिटरिंगमध्ये हजारो IP पत्त्यांवरून ट्रॅफिकमध्ये मोठी वाढ दिसते.",
+        "नेटवर्क लॉगमध्ये प्रति सेकंद हजारो ते लाखो विनंत्या दिसतात.",
+        "सण विक्री किंवा प्रमुख उत्पादन लॉन्च दरम्यान हल्ला तीव्र होतो.",
+        "ग्राहक तक्रार करतात की ते तुमच्या वेबसाइटवर किंवा अॅपवर प्रवेश करू शकत नाहीत."
+      ],
+      "howToStaySafe": [
+        "तुमच्या वेबसाइटसाठी एक प्रतिष्ठित DDoS संरक्षण सेवा (जसे Cloudflare, AWS Shield) वापरा.",
+        "संशयास्पद ट्रॅफिक पॅटर्न आपोआप ब्लॉक करण्यासाठी रेट लिमिटिंग आणि फायरवॉल कॉन्फिगर करा.",
+        "हल्ल्याच्या वेळी काय करायचे हे जाणण्यासाठी इन्सिडेंट रिस्पॉन्स प्लान तयार ठेवा.",
+        "तुमच्या ISP शी त्वरित संपर्क साधा — ते दुर्भावनापूर्ण ट्रॅफिक फिल्टर करण्यात मदत करू शकतात.",
+        "कधीही खंडणी देऊ नका — यामुळे अधिक हल्ले होतात.",
+        "सर्व DDoS हल्ल्यांची CERT-In (cert-in.org.in) वर नोंद करा."
+      ],
+      "ifScammed": [
+        "DDoS शमन सक्रिय करण्यासाठी त्वरित तुमच्या होस्टिंग प्रदात्याशी आणि ISP शी संपर्क साधा.",
+        "CERT-In (cert-in.org.in) वर हल्ल्याची नोंद करा.",
+        "cybercrime.gov.in वर सायबर गुन्हे तक्रार दाखल करा किंवा 1930 वर कॉल करा.",
+        "सर्व सर्व्हर लॉग, धमकीचे ईमेल आणि ट्रॅफिक डेटा पुरावा म्हणून जतन करा.",
+        "कोणत्याही खंडणीच्या मागणीला पेमेंट करू नका.",
+        "फोरेन्सिक विश्लेषणासाठी सायबर सुरक्षा फर्मशी संपर्क साधण्याचा विचार करा."
+      ],
+      "example": {
+        "channel": "email",
+        "sender": "ddos-threat@protonmail.com",
+        "text": "आम्ही तुमचा सर्व्हर [IP] वर ओळखला आहे. 24 तासांत 5 BTC पेमेंट करा अन्यथा आम्ही तुमच्या पायाभूत सुविधांवर 500 Gbps चा हल्ला सुरू करू."
+      }
+    },
+    {
+      "slug": "crypto-fraud",
+      "title": "क्रिप्टो व्यवहार फसवणूक",
+      "summary": "फसवणूकदार क्रिप्टोकरन्सी गुंतवणुकीवर मोठ्या परताव्याचे आमिष दाखवून बळींना फसवतात, नंतर त्यांचे पैसे चोरून अदृश्य होतात.",
+      "image": "/images/scams/crypto-fraud-hero.svg",
+      "severity": "high",
+      "images": [
+        {
+          "src": "/images/scams/crypto-fraud-hero.svg",
+          "alt": "क्रिप्टो फसवणूक हिरो",
+          "caption": "फसवणूकदार मोठ्या क्रिप्टो परताव्याचे वचन देऊन तुमची गुंतवणूक चोरतो."
+        },
+        {
+          "src": "/images/scams/crypto-fraud-example.svg",
+          "alt": "क्रिप्टो फसवणूकीचे उदाहरण",
+          "caption": "एक विशिष्ट क्रिप्टो फसवणूक संभाषण: वचने, वॉलेट पत्ता, नंतर फसवणूकदार गायब."
+        },
+        {
+          "src": "/images/scams/crypto-fraud-redflags.svg",
+          "alt": "क्रिप्टो फसवणूक लाल चिन्हे",
+          "caption": "क्रिप्टोकरन्सी गुंतवणूक घोटाळ्याची सहा महत्त्वाची चेतावणी चिन्हे."
+        }
+      ],
+      "whatIsIt": "क्रिप्टो व्यवहार फसवणूक ही एक गुंतवणूक फसवणूक आहे जिथे फसवणूकदार यशस्वी क्रिप्टो ट्रेडर्स किंवा गुंतवणूक प्लॅटफॉर्म म्हणून तुम्हाला क्रिप्टोकरन्सी पाठवण्यास प्रवृत्त करतात. क्रिप्टो व्यवहार अपरिवर्तनीय असल्याने, एकदा पाठवलेले पैसे कधीही परत येत नाहीत.",
+      "howItWorks": [
+        "फसवणूकदार WhatsApp, Telegram, Instagram, किंवा डेटिंग अॅप्सवर मित्र, प्रेमी, किंवा गुंतवणूक तज्ञ म्हणून संपर्क करतो.",
+        "ते दिवस किंवा आठवड्यांमध्ये विश्वास निर्माण करतात, नफ्याचे बनावट 'पुरावे' दाखवतात.",
+        "तुम्हाला प्रथम थोडी रक्कम गुंतवण्यास सांगितले जाते.",
+        "नंतर तुम्हाला मोठी रक्कम — कधीकधी तुमची संपूर्ण बचत — गुंतवण्यास प्रवृत्त केले जाते.",
+        "जेव्हा तुम्ही पैसे काढण्याचा प्रयत्न करता, तेव्हा नेहमी अधिक शुल्क असतात.",
+        "शेवटी फसवणूकदार तुम्हाला ब्लॉक करतो आणि सर्व फंड गेलेले असतात."
+      ],
+      "redFlags": [
+        "क्रिप्टोवर 'हमीशीर परतावा' — वैध गुंतवणुकीत नेहमीच जोखीम असते.",
+        "FOMO वापरणारी उच्च-दबाव रणनीती: 'फक्त 3 जागा शिल्लक!'",
+        "तुम्हाला प्रथम अज्ञात वॉलेट पत्त्यावर क्रिप्टोकरन्सी पाठवण्यास सांगितले जाते.",
+        "गुंतवणूक प्लॅटफॉर्म SEBI कडे नोंदणीकृत नाही.",
+        "प्रमोटर अनामिक आहे — कोणतेही सत्यापन करण्यायोग्य नाव किंवा कंपनी नोंदणी नाही.",
+        "तुम्ही प्लॅटफॉर्मवर नफा पाहू शकता पण पैसे काढणे नेहमी अयशस्वी होते."
+      ],
+      "howToStaySafe": [
+        "कोणत्याही क्रिप्टोकरन्सी योजनेत गुंतवणूक करू नका जी हमीशीर परताव्याचे वचन देते.",
+        "नेहमी सत्यापित करा की कोणताही गुंतवणूक प्लॅटफॉर्म SEBI कडे नोंदणीकृत आहे.",
+        "सोशल मीडिया किंवा मेसेजिंग प्लॅटफॉर्मवर अनोळखी व्यक्तींकडून गुंतवणूक सल्ला घेऊ नका.",
+        "कोणतीही महत्त्वाची रक्कम गुंतवण्यापूर्वी विश्वासू आर्थिक सल्लागाराशी बोला.",
+        "विनाविनंती येणाऱ्या कोणत्याही प्रस्तावाकडे अत्यंत संशयाने पाहा."
+      ],
+      "ifScammed": [
+        "आर्थिक फसवणुकीची नोंद करण्यासाठी त्वरित 1930 वर कॉल करा.",
+        "cybercrime.gov.in वर सर्व व्यवहार हॅश, वॉलेट पत्ते आणि चॅट लॉगसह तक्रार दाखल करा.",
+        "जर तुम्ही बँक ट्रान्सफर वापरला असेल तर त्वरित तुमच्या बँकेशी संपर्क साधा.",
+        "सर्व पुरावे जतन करा: संभाषणाचे स्क्रीनशॉट, वॉलेट पत्ते आणि व्यवहार नोंदी.",
+        "कोणत्याही 'रिकव्हरी शुल्का'ला पेमेंट करू नका — हे दुय्यम घोटाळे आहेत."
+      ],
+      "example": {
+        "channel": "whatsapp",
+        "sender": "+1-555-0192",
+        "text": "नमस्ते! मी Sarah आहे, एक क्रिप्टो ट्रेडर. मी एका विशेष अल्गोरिदमने 500% परतावा मिळवत आहे. तुम्हीही ₹10,000 BTC मध्ये गुंतवा — 30 दिवसांत 10x करण्यास मार्गदर्शन करेन. हमीशीर! 🚀"
+      }
     }
   ]
 }
-

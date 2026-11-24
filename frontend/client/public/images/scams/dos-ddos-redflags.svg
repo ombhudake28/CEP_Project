@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgRFDos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="50%" style="stop-color:#1a0a2e"/>
+      <stop offset="100%" style="stop-color:#0a0a1a"/>
+    </linearGradient>
+    <linearGradient id="cardBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b"/>
+      <stop offset="100%" style="stop-color:#312e81"/>
+    </linearGradient>
+    <linearGradient id="cardPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e1065"/>
+      <stop offset="100%" style="stop-color:#4c1d95"/>
+    </linearGradient>
+    <filter id="glowRFDos">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="cardShadowDos">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgRFDos)"/>
+
+  <!-- Decorative dots -->
+  <g fill="#6366f1" opacity="0.1">
+    <circle cx="50" cy="60" r="3"/><circle cx="150" cy="30" r="2"/><circle cx="700" cy="50" r="3"/>
+    <circle cx="760" cy="120" r="2"/><circle cx="30" cy="200" r="2"/><circle cx="780" cy="300" r="3"/>
+    <circle cx="100" cy="400" r="2"/><circle cx="720" cy="420" r="2"/>
+  </g>
+
+  <!-- Title -->
+  <text x="400" y="42" text-anchor="middle" font-size="20" fill="#818cf8" font-family="Arial" font-weight="bold" filter="url(#glowRFDos)">⚠ RED FLAGS — DoS &amp; DDoS Attacks</text>
+  <line x1="100" y1="52" x2="700" y2="52" stroke="#6366f1" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Card 1: Sudden Website Downtime -->
+  <g filter="url(#cardShadowDos)">
+    <rect x="30" y="68" width="220" height="158" rx="14" fill="url(#cardBlue)"/>
+    <rect x="30" y="68" width="220" height="6" rx="14" fill="#6366f1"/>
+    <text x="140" y="115" text-anchor="middle" font-size="36" fill="#fff">🌐</text>
+    <text x="140" y="145" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Sudden Website Down</text>
+    <text x="140" y="163" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">Site becomes unreachable</text>
+    <text x="140" y="178" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">without any reason given</text>
+    <text x="140" y="216" text-anchor="middle" font-size="9" fill="#818cf8" font-family="Arial" font-weight="bold">CHECK: Is only you affected?</text>
+  </g>
+
+  <!-- Card 2: Unusually Slow Network -->
+  <g filter="url(#cardShadowDos)">
+    <rect x="290" y="68" width="220" height="158" rx="14" fill="url(#cardBlue)"/>
+    <rect x="290" y="68" width="220" height="6" rx="14" fill="#6366f1"/>
+    <text x="400" y="115" text-anchor="middle" font-size="36" fill="#fff">🐢</text>
+    <text x="400" y="145" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Extremely Slow Network</text>
+    <text x="400" y="163" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">Pages timeout or load</text>
+    <text x="400" y="178" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">extremely slowly</text>
+    <text x="400" y="216" text-anchor="middle" font-size="9" fill="#818cf8" font-family="Arial" font-weight="bold">POSSIBLE DoS SYMPTOM</text>
+  </g>
+
+  <!-- Card 3: Ransom Demands -->
+  <g filter="url(#cardShadowDos)">
+    <rect x="550" y="68" width="220" height="158" rx="14" fill="url(#cardPurple)"/>
+    <rect x="550" y="68" width="220" height="6" rx="14" fill="#a855f7"/>
+    <text x="660" y="115" text-anchor="middle" font-size="36" fill="#fff">💰</text>
+    <text x="660" y="145" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Ransom Demands</text>
+    <text x="660" y="163" text-anchor="middle" font-size="10" fill="#e9d5ff" font-family="Arial">"Pay crypto or we keep</text>
+    <text x="660" y="178" text-anchor="middle" font-size="10" fill="#e9d5ff" font-family="Arial">your site offline"</text>
+    <text x="660" y="216" text-anchor="middle" font-size="9" fill="#c084fc" font-family="Arial" font-weight="bold">RANSOM DDoS — NEVER PAY!</text>
+  </g>
+
+  <!-- Card 4: Massive Traffic Spike -->
+  <g filter="url(#cardShadowDos)">
+    <rect x="30" y="250" width="220" height="158" rx="14" fill="url(#cardPurple)"/>
+    <rect x="30" y="250" width="220" height="6" rx="14" fill="#a855f7"/>
+    <text x="140" y="297" text-anchor="middle" font-size="36" fill="#fff">📊</text>
+    <text x="140" y="327" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Abnormal Traffic Spike</text>
+    <text x="140" y="345" text-anchor="middle" font-size="10" fill="#e9d5ff" font-family="Arial">Server logs show millions</text>
+    <text x="140" y="360" text-anchor="middle" font-size="10" fill="#e9d5ff" font-family="Arial">of requests per second</text>
+    <text x="140" y="398" text-anchor="middle" font-size="9" fill="#c084fc" font-family="Arial" font-weight="bold">CALL YOUR ISP IMMEDIATELY</text>
+  </g>
+
+  <!-- Card 5: Threatening Emails -->
+  <g filter="url(#cardShadowDos)">
+    <rect x="290" y="250" width="220" height="158" rx="14" fill="url(#cardBlue)"/>
+    <rect x="290" y="250" width="220" height="6" rx="14" fill="#6366f1"/>
+    <text x="400" y="297" text-anchor="middle" font-size="36" fill="#fff">📧</text>
+    <text x="400" y="327" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Threatening Emails</text>
+    <text x="400" y="345" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">Emails threatening to attack</text>
+    <text x="400" y="360" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">unless payment is made</text>
+    <text x="400" y="398" text-anchor="middle" font-size="9" fill="#818cf8" font-family="Arial" font-weight="bold">REPORT TO CERT-In!</text>
+  </g>
+
+  <!-- Card 6: Competitor Motive -->
+  <g filter="url(#cardShadowDos)">
+    <rect x="550" y="250" width="220" height="158" rx="14" fill="url(#cardBlue)"/>
+    <rect x="550" y="250" width="220" height="6" rx="14" fill="#6366f1"/>
+    <text x="660" y="297" text-anchor="middle" font-size="36" fill="#fff">🎯</text>
+    <text x="660" y="327" text-anchor="middle" font-size="12" fill="#fff" font-family="Arial" font-weight="bold">Targeted Business Attack</text>
+    <text x="660" y="345" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">Attack during peak hours</text>
+    <text x="660" y="360" text-anchor="middle" font-size="10" fill="#c7d2fe" font-family="Arial">or festive sale events</text>
+    <text x="660" y="398" text-anchor="middle" font-size="9" fill="#818cf8" font-family="Arial" font-weight="bold">ACTIVATE DDoS PROTECTION</text>
+  </g>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="420" width="800" height="30" fill="#1e1b4b" opacity="0.95"/>
+  <text x="400" y="440" text-anchor="middle" font-size="11" fill="#c7d2fe" font-family="Arial" font-weight="bold">If you spot any of these — Contact CERT-In (cert-in.org.in) or call 1930 immediately</text>
+</svg>
